@@ -36,30 +36,30 @@ proxies:
     server: engage.cloudflareclient.com
     port: 2408
     ip: 172.16.0.2/32
-    ipv6: "2606:4700:110:85a2:48ec:53e9:4d14:8ed4/128"
-    private-key: "j+vEElGBt/xOSw/9PCNKA9SF1PfGTLQOxt1aANQOJII="
+    ipv6: "2606:4700:110:884a:5bff:5645:342d:b32a/128"
+    private-key: "F7ghB1qxOPMXR9wGgCwZiA9DVwgQvKVcBQzmov7xM4w="
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    reserved: "fx3P"
+    reserved: "jp8F"
     udp: true
     mtu: 1280
     amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
   - {name: "سرویس رایگان نوا nova.hivpn.workers.dev:443 [VLESS]", server: nova.hivpn.workers.dev, port: 443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 188.164.248.156:8443 [VLESS]", server: 188.164.248.156, port: 8443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 162.159.34.229:2083 [VLESS]", server: 162.159.34.229, port: 2083, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.52.248:2096 [VLESS]", server: 104.19.52.248, port: 2096, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.63.15:2053 [VLESS]", server: 104.17.63.15, port: 2053, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.30.3:443 [VLESS]", server: 104.17.30.3, port: 443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.52.254:8443 [VLESS]", server: 104.19.52.254, port: 8443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.144.192:2053 [VLESS]", server: 104.19.144.192, port: 2053, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.248.167:8443 [VLESS]", server: 104.16.248.167, port: 8443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.16.255.154:2087 [VLESS]", server: 104.16.255.154, port: 2087, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.67.77.31:8443 [VLESS]", server: 172.67.77.31, port: 8443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.180.220:2087 [VLESS]", server: 104.17.180.220, port: 2087, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.17.218:2087 [VLESS]", server: 104.17.17.218, port: 2087, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 172.67.76.208:2083 [VLESS]", server: 172.67.76.208, port: 2083, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 188.164.248.154:2096 [VLESS]", server: 188.164.248.154, port: 2096, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.17.208.0:8443 [VLESS]", server: 104.17.208.0, port: 8443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.19.34.134:8443 [VLESS]", server: 104.19.34.134, port: 8443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 188.164.248.85:2096 [VLESS]", server: 188.164.248.85, port: 2096, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 8.39.125.113:8443 [VLESS]", server: 8.39.125.113, port: 8443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.18.33.221:2096 [VLESS]", server: 104.18.33.221, port: 2096, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 8.35.211.103:2096 [VLESS]", server: 8.35.211.103, port: 2096, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 108.162.198.131:8443 [VLESS]", server: 108.162.198.131, port: 8443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.26.9.242:2083 [VLESS]", server: 104.26.9.242, port: 2083, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.191.213:8443 [VLESS]", server: 104.17.191.213, port: 8443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.124.38:2087 [VLESS]", server: 104.17.124.38, port: 2087, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.62.52:2083 [VLESS]", server: 104.17.62.52, port: 2083, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.186.162:2053 [VLESS]", server: 104.17.186.162, port: 2053, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.215.62:443 [VLESS]", server: 104.17.215.62, port: 443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.19.147.159:2087 [VLESS]", server: 104.19.147.159, port: 2087, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 108.162.198.11:2096 [VLESS]", server: 108.162.198.11, port: 2096, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.17.102.143:2083 [VLESS]", server: 104.17.102.143, port: 2083, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.16.251.32:443 [VLESS]", server: 104.16.251.32, port: 443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا 91.193.58.103:443 [VLESS]", server: 91.193.58.103, port: 443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova.hivpn.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -71,22 +71,22 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا nova.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 188.164.248.156:8443 [VLESS]
-      - سرویس رایگان نوا 162.159.34.229:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.52.248:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.63.15:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.30.3:443 [VLESS]
-      - سرویس رایگان نوا 104.19.52.254:8443 [VLESS]
-      - سرویس رایگان نوا 104.19.144.192:2053 [VLESS]
-      - سرویس رایگان نوا 104.16.248.167:8443 [VLESS]
-      - سرویس رایگان نوا 104.16.255.154:2087 [VLESS]
-      - سرویس رایگان نوا 172.67.77.31:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.180.220:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.17.218:2087 [VLESS]
-      - سرویس رایگان نوا 172.67.76.208:2083 [VLESS]
-      - سرویس رایگان نوا 188.164.248.154:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.208.0:8443 [VLESS]
-      - سرویس رایگان نوا 104.19.34.134:8443 [VLESS]
+      - سرویس رایگان نوا 188.164.248.85:2096 [VLESS]
+      - سرویس رایگان نوا 8.39.125.113:8443 [VLESS]
+      - سرویس رایگان نوا 104.18.33.221:2096 [VLESS]
+      - سرویس رایگان نوا 8.35.211.103:2096 [VLESS]
+      - سرویس رایگان نوا 108.162.198.131:8443 [VLESS]
+      - سرویس رایگان نوا 104.26.9.242:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.191.213:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.124.38:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.62.52:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.186.162:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.215.62:443 [VLESS]
+      - سرویس رایگان نوا 104.19.147.159:2087 [VLESS]
+      - سرویس رایگان نوا 108.162.198.11:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.102.143:2083 [VLESS]
+      - سرویس رایگان نوا 104.16.251.32:443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.103:443 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -94,44 +94,44 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا nova.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 188.164.248.156:8443 [VLESS]
-      - سرویس رایگان نوا 162.159.34.229:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.52.248:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.63.15:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.30.3:443 [VLESS]
-      - سرویس رایگان نوا 104.19.52.254:8443 [VLESS]
-      - سرویس رایگان نوا 104.19.144.192:2053 [VLESS]
-      - سرویس رایگان نوا 104.16.248.167:8443 [VLESS]
-      - سرویس رایگان نوا 104.16.255.154:2087 [VLESS]
-      - سرویس رایگان نوا 172.67.77.31:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.180.220:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.17.218:2087 [VLESS]
-      - سرویس رایگان نوا 172.67.76.208:2083 [VLESS]
-      - سرویس رایگان نوا 188.164.248.154:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.208.0:8443 [VLESS]
-      - سرویس رایگان نوا 104.19.34.134:8443 [VLESS]
+      - سرویس رایگان نوا 188.164.248.85:2096 [VLESS]
+      - سرویس رایگان نوا 8.39.125.113:8443 [VLESS]
+      - سرویس رایگان نوا 104.18.33.221:2096 [VLESS]
+      - سرویس رایگان نوا 8.35.211.103:2096 [VLESS]
+      - سرویس رایگان نوا 108.162.198.131:8443 [VLESS]
+      - سرویس رایگان نوا 104.26.9.242:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.191.213:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.124.38:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.62.52:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.186.162:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.215.62:443 [VLESS]
+      - سرویس رایگان نوا 104.19.147.159:2087 [VLESS]
+      - سرویس رایگان نوا 108.162.198.11:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.102.143:2083 [VLESS]
+      - سرویس رایگان نوا 104.16.251.32:443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.103:443 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا nova.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 188.164.248.156:8443 [VLESS]
-      - سرویس رایگان نوا 162.159.34.229:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.52.248:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.63.15:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.30.3:443 [VLESS]
-      - سرویس رایگان نوا 104.19.52.254:8443 [VLESS]
-      - سرویس رایگان نوا 104.19.144.192:2053 [VLESS]
-      - سرویس رایگان نوا 104.16.248.167:8443 [VLESS]
-      - سرویس رایگان نوا 104.16.255.154:2087 [VLESS]
-      - سرویس رایگان نوا 172.67.77.31:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.180.220:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.17.218:2087 [VLESS]
-      - سرویس رایگان نوا 172.67.76.208:2083 [VLESS]
-      - سرویس رایگان نوا 188.164.248.154:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.208.0:8443 [VLESS]
-      - سرویس رایگان نوا 104.19.34.134:8443 [VLESS]
+      - سرویس رایگان نوا 188.164.248.85:2096 [VLESS]
+      - سرویس رایگان نوا 8.39.125.113:8443 [VLESS]
+      - سرویس رایگان نوا 104.18.33.221:2096 [VLESS]
+      - سرویس رایگان نوا 8.35.211.103:2096 [VLESS]
+      - سرویس رایگان نوا 108.162.198.131:8443 [VLESS]
+      - سرویس رایگان نوا 104.26.9.242:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.191.213:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.124.38:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.62.52:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.186.162:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.215.62:443 [VLESS]
+      - سرویس رایگان نوا 104.19.147.159:2087 [VLESS]
+      - سرویس رایگان نوا 108.162.198.11:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.102.143:2083 [VLESS]
+      - سرویس رایگان نوا 104.16.251.32:443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.103:443 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -139,22 +139,22 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا nova.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 188.164.248.156:8443 [VLESS]
-      - سرویس رایگان نوا 162.159.34.229:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.52.248:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.63.15:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.30.3:443 [VLESS]
-      - سرویس رایگان نوا 104.19.52.254:8443 [VLESS]
-      - سرویس رایگان نوا 104.19.144.192:2053 [VLESS]
-      - سرویس رایگان نوا 104.16.248.167:8443 [VLESS]
-      - سرویس رایگان نوا 104.16.255.154:2087 [VLESS]
-      - سرویس رایگان نوا 172.67.77.31:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.180.220:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.17.218:2087 [VLESS]
-      - سرویس رایگان نوا 172.67.76.208:2083 [VLESS]
-      - سرویس رایگان نوا 188.164.248.154:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.208.0:8443 [VLESS]
-      - سرویس رایگان نوا 104.19.34.134:8443 [VLESS]
+      - سرویس رایگان نوا 188.164.248.85:2096 [VLESS]
+      - سرویس رایگان نوا 8.39.125.113:8443 [VLESS]
+      - سرویس رایگان نوا 104.18.33.221:2096 [VLESS]
+      - سرویس رایگان نوا 8.35.211.103:2096 [VLESS]
+      - سرویس رایگان نوا 108.162.198.131:8443 [VLESS]
+      - سرویس رایگان نوا 104.26.9.242:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.191.213:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.124.38:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.62.52:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.186.162:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.215.62:443 [VLESS]
+      - سرویس رایگان نوا 104.19.147.159:2087 [VLESS]
+      - سرویس رایگان نوا 108.162.198.11:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.102.143:2083 [VLESS]
+      - سرویس رایگان نوا 104.16.251.32:443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.103:443 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -181,22 +181,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا nova.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 188.164.248.156:8443 [VLESS]
-      - سرویس رایگان نوا 162.159.34.229:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.52.248:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.63.15:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.30.3:443 [VLESS]
-      - سرویس رایگان نوا 104.19.52.254:8443 [VLESS]
-      - سرویس رایگان نوا 104.19.144.192:2053 [VLESS]
-      - سرویس رایگان نوا 104.16.248.167:8443 [VLESS]
-      - سرویس رایگان نوا 104.16.255.154:2087 [VLESS]
-      - سرویس رایگان نوا 172.67.77.31:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.180.220:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.17.218:2087 [VLESS]
-      - سرویس رایگان نوا 172.67.76.208:2083 [VLESS]
-      - سرویس رایگان نوا 188.164.248.154:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.208.0:8443 [VLESS]
-      - سرویس رایگان نوا 104.19.34.134:8443 [VLESS]
+      - سرویس رایگان نوا 188.164.248.85:2096 [VLESS]
+      - سرویس رایگان نوا 8.39.125.113:8443 [VLESS]
+      - سرویس رایگان نوا 104.18.33.221:2096 [VLESS]
+      - سرویس رایگان نوا 8.35.211.103:2096 [VLESS]
+      - سرویس رایگان نوا 108.162.198.131:8443 [VLESS]
+      - سرویس رایگان نوا 104.26.9.242:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.191.213:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.124.38:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.62.52:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.186.162:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.215.62:443 [VLESS]
+      - سرویس رایگان نوا 104.19.147.159:2087 [VLESS]
+      - سرویس رایگان نوا 108.162.198.11:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.102.143:2083 [VLESS]
+      - سرویس رایگان نوا 104.16.251.32:443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.103:443 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -209,22 +209,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا nova.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا 188.164.248.156:8443 [VLESS]
-      - سرویس رایگان نوا 162.159.34.229:2083 [VLESS]
-      - سرویس رایگان نوا 104.19.52.248:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.63.15:2053 [VLESS]
-      - سرویس رایگان نوا 104.17.30.3:443 [VLESS]
-      - سرویس رایگان نوا 104.19.52.254:8443 [VLESS]
-      - سرویس رایگان نوا 104.19.144.192:2053 [VLESS]
-      - سرویس رایگان نوا 104.16.248.167:8443 [VLESS]
-      - سرویس رایگان نوا 104.16.255.154:2087 [VLESS]
-      - سرویس رایگان نوا 172.67.77.31:8443 [VLESS]
-      - سرویس رایگان نوا 104.17.180.220:2087 [VLESS]
-      - سرویس رایگان نوا 104.17.17.218:2087 [VLESS]
-      - سرویس رایگان نوا 172.67.76.208:2083 [VLESS]
-      - سرویس رایگان نوا 188.164.248.154:2096 [VLESS]
-      - سرویس رایگان نوا 104.17.208.0:8443 [VLESS]
-      - سرویس رایگان نوا 104.19.34.134:8443 [VLESS]
+      - سرویس رایگان نوا 188.164.248.85:2096 [VLESS]
+      - سرویس رایگان نوا 8.39.125.113:8443 [VLESS]
+      - سرویس رایگان نوا 104.18.33.221:2096 [VLESS]
+      - سرویس رایگان نوا 8.35.211.103:2096 [VLESS]
+      - سرویس رایگان نوا 108.162.198.131:8443 [VLESS]
+      - سرویس رایگان نوا 104.26.9.242:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.191.213:8443 [VLESS]
+      - سرویس رایگان نوا 104.17.124.38:2087 [VLESS]
+      - سرویس رایگان نوا 104.17.62.52:2083 [VLESS]
+      - سرویس رایگان نوا 104.17.186.162:2053 [VLESS]
+      - سرویس رایگان نوا 104.17.215.62:443 [VLESS]
+      - سرویس رایگان نوا 104.19.147.159:2087 [VLESS]
+      - سرویس رایگان نوا 108.162.198.11:2096 [VLESS]
+      - سرویس رایگان نوا 104.17.102.143:2083 [VLESS]
+      - سرویس رایگان نوا 104.16.251.32:443 [VLESS]
+      - سرویس رایگان نوا 91.193.58.103:443 [VLESS]
 rules:
 # PHISHING BLOCK RULES
   - GEOSITE,category-phishing,REJECT
