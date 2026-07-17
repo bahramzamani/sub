@@ -716,18 +716,18 @@
     {
       "type": "wireguard",
       "tag": "Nova-WARP",
-      "server": "162.159.195.1",
-      "server_port": 928,
+      "server": "188.114.96.1",
+      "server_port": 4233,
       "local_address": [
         "172.16.0.2/32",
-        "2606:4700:110:8c63:f644:aca3:fd8f:f88e/128"
+        "2606:4700:110:800d:b571:58d2:b6fa:1d08/128"
       ],
-      "private_key": "J4xpYKvl2cmiYj82MwZge3KGd3BS5YUKbnHlxN/iIro=",
+      "private_key": "fxSEWYo6j+o5DQLxerht5puP61fcj0lTV8X5BW5Jp5w=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [
-        103,
-        149,
-        25
+        171,
+        56,
+        112
       ],
       "mtu": 1280
     },
@@ -738,14 +738,14 @@
       "server_port": 2408,
       "local_address": [
         "172.16.0.2/32",
-        "2606:4700:110:8d14:1919:db8a:f158:e77a/128"
+        "2606:4700:110:8cac:1f4f:6809:5238:a87c/128"
       ],
-      "private_key": "fxs421VgV1Tw/YRbBpzWsua8pkvxIFNG3k4CMPXCt7I=",
+      "private_key": "B/Jk4f1A/67fl6F2EhaK9amLkeumklaz7wBAVoUlA40=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [
-        18,
-        151,
-        8
+        123,
+        236,
+        63
       ],
       "mtu": 1280,
       "detour": "Nova-WARP"
