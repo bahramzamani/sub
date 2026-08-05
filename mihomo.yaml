@@ -45,22 +45,22 @@ proxies:
     dialer-proxy: "🚀 节点选择"
     amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
   - {name: "سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]", server: npanel.hivpn.workers.dev, port: 443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: npanel.hivpn.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.7.143:443 [TROJAN]", server: 104.26.7.143, port: 443, type: trojan, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, sni: nova.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 173.245.58.107:2096 [SS]", server: 173.245.58.107, port: 2096, type: ss, cipher: aes-128-gcm, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: npanel.hivpn.workers.dev, path: "/proxyip\\=149.248.199.173?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.241.142:8443 [VLESS]", server: 104.16.241.142, port: 8443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.37.185:2083 [TROJAN]", server: 162.159.37.185, port: 2083, type: trojan, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, sni: npanel.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.242.25:2083 [SS]", server: 104.16.242.25, port: 2083, type: ss, cipher: aes-128-gcm, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova.hivpn.workers.dev, path: "/proxyip\\=149.248.199.173?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.87:2096 [VLESS]", server: 188.164.248.87, port: 2096, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: npanel.hivpn.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 173.245.59.44:2096 [TROJAN]", server: 173.245.59.44, port: 2096, type: trojan, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, sni: nova.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.71.56:2096 [SS]", server: 172.67.71.56, port: 2096, type: ss, cipher: aes-128-gcm, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: npanel.hivpn.workers.dev, path: "/proxyip\\=149.248.199.173?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.157.95:2087 [VLESS]", server: 104.16.157.95, port: 2087, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.175.167:2053 [TROJAN]", server: 104.17.175.167, port: 2053, type: trojan, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, sni: npanel.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 173.245.59.255:8443 [SS]", server: 173.245.59.255, port: 8443, type: ss, cipher: aes-128-gcm, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova.hivpn.workers.dev, path: "/proxyip\\=149.248.199.173?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.223.181:2087 [VLESS]", server: 198.41.223.181, port: 2087, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: npanel.hivpn.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.51.10:2053 [TROJAN]", server: 104.19.51.10, port: 2053, type: trojan, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, sni: nova.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.91:8443 [SS]", server: 108.162.198.91, port: 8443, type: ss, cipher: aes-128-gcm, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: npanel.hivpn.workers.dev, path: "/proxyip\\=149.248.199.173?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.59.127:8443 [VLESS]", server: 91.193.59.127, port: 8443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: nova.hivpn.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: nova.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.25.36:2087 [TROJAN]", server: 104.17.25.36, port: 2087, type: trojan, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, sni: npanel.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.186.207:443 [TROJAN]", server: 104.17.186.207, port: 443, type: trojan, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, sni: npanel.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.44.11:8443 [SS]", server: 162.159.44.11, port: 8443, type: ss, cipher: aes-128-gcm, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: npanel.hivpn.workers.dev, path: "/proxyip\\=149.248.199.173?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.188:2087 [VLESS]", server: 8.35.211.188, port: 2087, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: npanel.hivpn.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.58.139:2053 [TROJAN]", server: 91.193.58.139, port: 2053, type: trojan, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, sni: npanel.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.125.234:2083 [SS]", server: 104.17.125.234, port: 2083, type: ss, cipher: aes-128-gcm, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: npanel.hivpn.workers.dev, path: "/proxyip\\=149.248.199.173?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.10.109:443 [VLESS]", server: 104.26.10.109, port: 443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: npanel.hivpn.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.49.241:2053 [TROJAN]", server: 104.17.49.241, port: 2053, type: trojan, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, sni: npanel.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.153:2083 [SS]", server: 8.35.211.153, port: 2083, type: ss, cipher: aes-128-gcm, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: npanel.hivpn.workers.dev, path: "/proxyip\\=149.248.199.173?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.185:443 [VLESS]", server: 8.39.125.185, port: 443, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: npanel.hivpn.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.252.42:443 [TROJAN]", server: 104.16.252.42, port: 443, type: trojan, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, sni: npanel.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.105.103:8443 [SS]", server: 104.17.105.103, port: 8443, type: ss, cipher: aes-128-gcm, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: npanel.hivpn.workers.dev, path: "/proxyip\\=149.248.199.173?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.116.141:2083 [VLESS]", server: 104.17.116.141, port: 2083, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: npanel.hivpn.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.218.49:2083 [TROJAN]", server: 104.17.218.49, port: 2083, type: trojan, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, sni: npanel.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 173.245.58.151:8443 [SS]", server: 173.245.58.151, port: 8443, type: ss, cipher: aes-128-gcm, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: npanel.hivpn.workers.dev, path: "/proxyip\\=149.248.199.173?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.65:2096 [VLESS]", server: 8.39.125.65, port: 2096, type: vless, uuid: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, tls: true, skip-cert-verify: false, servername: npanel.hivpn.workers.dev, client-fingerprint: ios, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.151.30:2087 [TROJAN]", server: 104.17.151.30, port: 2087, type: trojan, password: 8d566622-dfdb-40ea-883c-cc1cbb3ed3ea, sni: npanel.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /proxyip=149.248.199.173, headers: {Host: npanel.hivpn.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -72,22 +72,22 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.7.143:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 173.245.58.107:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.241.142:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.37.185:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.242.25:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.87:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 173.245.59.44:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.71.56:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.157.95:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.175.167:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 173.245.59.255:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.181:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.51.10:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.91:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.127:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.25.36:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.186.207:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.44.11:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.188:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.139:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.125.234:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.10.109:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.49.241:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.153:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.185:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.252.42:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.105.103:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.116.141:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.218.49:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.151:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.65:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.151.30:2087 [TROJAN]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -95,44 +95,44 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.7.143:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 173.245.58.107:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.241.142:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.37.185:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.242.25:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.87:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 173.245.59.44:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.71.56:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.157.95:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.175.167:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 173.245.59.255:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.181:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.51.10:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.91:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.127:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.25.36:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.186.207:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.44.11:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.188:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.139:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.125.234:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.10.109:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.49.241:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.153:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.185:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.252.42:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.105.103:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.116.141:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.218.49:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.151:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.65:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.151.30:2087 [TROJAN]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.7.143:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 173.245.58.107:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.241.142:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.37.185:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.242.25:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.87:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 173.245.59.44:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.71.56:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.157.95:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.175.167:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 173.245.59.255:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.181:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.51.10:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.91:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.127:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.25.36:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.186.207:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.44.11:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.188:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.139:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.125.234:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.10.109:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.49.241:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.153:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.185:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.252.42:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.105.103:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.116.141:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.218.49:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.151:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.65:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.151.30:2087 [TROJAN]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -140,22 +140,22 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.7.143:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 173.245.58.107:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.241.142:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.37.185:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.242.25:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.87:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 173.245.59.44:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.71.56:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.157.95:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.175.167:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 173.245.59.255:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.181:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.51.10:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.91:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.127:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.25.36:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.186.207:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.44.11:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.188:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.139:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.125.234:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.10.109:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.49.241:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.153:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.185:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.252.42:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.105.103:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.116.141:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.218.49:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.151:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.65:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.151.30:2087 [TROJAN]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -182,22 +182,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.7.143:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 173.245.58.107:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.241.142:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.37.185:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.242.25:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.87:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 173.245.59.44:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.71.56:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.157.95:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.175.167:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 173.245.59.255:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.181:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.51.10:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.91:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.127:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.25.36:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.186.207:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.44.11:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.188:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.139:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.125.234:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.10.109:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.49.241:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.153:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.185:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.252.42:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.105.103:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.116.141:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.218.49:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.151:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.65:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.151.30:2087 [TROJAN]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -210,22 +210,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.7.143:443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 173.245.58.107:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.241.142:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.37.185:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.16.242.25:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.87:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 173.245.59.44:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.71.56:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.157.95:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.175.167:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 173.245.59.255:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.181:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.51.10:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.91:8443 [SS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.127:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.25.36:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.186.207:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.44.11:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.188:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.139:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.125.234:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.10.109:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.49.241:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.153:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.185:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.252.42:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.105.103:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.116.141:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.218.49:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.151:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.65:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.151.30:2087 [TROJAN]
 rules:
 # IRANIAN DIRECT RULES
   - DOMAIN-SUFFIX,ir,DIRECT
@@ -8532,7 +8532,6 @@ rules:
   - IP-CIDR,91.209.253.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,92.53.188.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,92.60.74.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,92.243.74.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,93.114.64.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,93.115.102.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,94.140.0.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8731,12 +8730,10 @@ rules:
   - IP-CIDR,5.226.183.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,5.252.81.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.6.112.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.20.122.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.20.125.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.21.9.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.21.10.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.21.111.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.23.139.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.24.87.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.25.97.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.27.64.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8783,9 +8780,10 @@ rules:
   - IP-CIDR,45.196.29.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.198.114.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.198.116.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,45.198.139.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.199.183.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.199.188.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,45.250.152.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,46.38.152.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,49.238.236.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,51.194.144.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,51.241.128.0/23,☁️ CloudFlareCDN,no-resolve
@@ -8817,6 +8815,7 @@ rules:
   - IP-CIDR,82.25.20.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.26.156.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.139.216.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,87.232.75.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,88.216.69.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.46.251.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.106.90.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8827,6 +8826,7 @@ rules:
   - IP-CIDR,91.234.202.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,92.44.1.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,94.156.10.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,94.177.26.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,96.43.100.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,98.98.234.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,103.21.244.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8841,7 +8841,6 @@ rules:
   - IP-CIDR,103.186.74.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,103.198.92.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,103.215.22.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,103.219.64.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.16.0.0/14,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.20.0.0/18,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.21.0.0/17,☁️ CloudFlareCDN,no-resolve
@@ -8884,6 +8883,8 @@ rules:
   - IP-CIDR,104.22.131.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.132.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.134.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.136.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.140.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.148.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.150.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.155.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8897,6 +8898,7 @@ rules:
   - IP-CIDR,104.22.176.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.180.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.186.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.190.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.160.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.176.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.178.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8909,11 +8911,7 @@ rules:
   - IP-CIDR,104.23.204.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.206.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.208.0/20,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.23.224.0/20,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.23.240.0/21,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.23.248.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.23.250.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.23.252.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.23.224.0/19,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.24.0.0/18,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.24.64.0/19,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.24.128.0/17,☁️ CloudFlareCDN,no-resolve
@@ -8946,10 +8944,7 @@ rules:
   - IP-CIDR,104.31.16.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.31.20.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.156.176.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.233.58.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.234.133.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.239.29.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.239.89.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.243.192.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.244.236.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.249.18.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9007,6 +9002,7 @@ rules:
   - IP-CIDR,145.224.255.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,146.19.108.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,147.189.42.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,148.224.60.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,148.227.167.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,150.48.128.0/18,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,151.243.133.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9016,6 +9012,8 @@ rules:
   - IP-CIDR,152.114.128.0/18,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.46.20.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.81.141.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,154.84.164.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,154.86.118.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.193.133.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.193.184.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,154.200.89.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9048,9 +9046,7 @@ rules:
   - IP-CIDR,162.158.36.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.40.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.44.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,162.158.48.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,162.158.51.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,162.158.52.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,162.158.48.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.56.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.61.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,162.158.62.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9232,7 +9228,6 @@ rules:
   - IP-CIDR,172.68.176.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.184.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.188.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.68.191.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.192.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.196.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.68.198.0/23,☁️ CloudFlareCDN,no-resolve
@@ -9302,7 +9297,7 @@ rules:
   - IP-CIDR,172.69.144.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.147.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.148.0/22,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.69.152.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.69.152.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.156.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.158.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.162.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9358,7 +9353,8 @@ rules:
   - IP-CIDR,172.70.149.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.70.152.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.70.154.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,172.70.156.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.70.156.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.70.159.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.70.160.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.70.172.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.70.176.0/21,☁️ CloudFlareCDN,no-resolve
@@ -9518,13 +9514,14 @@ rules:
   - IP-CIDR,199.27.128.0/21,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,199.65.62.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,199.68.16.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,200.69.28.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,202.27.69.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,202.49.114.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.5.33.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.15.65.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,203.117.8.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.117.53.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.120.52.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,203.168.192.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,204.4.235.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,204.69.207.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,204.153.16.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9559,6 +9556,7 @@ rules:
   - IP-CIDR,217.180.16.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,218.33.92.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,222.167.32.0/22,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,222.167.230.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,103.21.246.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.240.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.0.0/19,☁️ CloudFlareCDN,no-resolve
