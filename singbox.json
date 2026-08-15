@@ -8,55 +8,66 @@
     "servers": [
       {
         "tag": "dns_proxy",
-        "type": "tls",
-        "server": "8.8.8.8",
-        "domain_resolver": "dns_resolver"
+        "address": "tls://8.8.8.8",
+        "address_resolver": "dns_resolver"
       },
       {
         "tag": "dns_direct",
-        "type": "h3",
-        "server": "dns.alidns.com",
-        "domain_resolver": "dns_resolver"
+        "address": "h3://dns.alidns.com/dns-query",
+        "address_resolver": "dns_resolver",
+        "detour": "DIRECT"
       },
       {
         "tag": "dns_fakeip",
-        "type": "fakeip",
-        "inet4_range": "198.18.0.0/15"
+        "address": "fakeip"
       },
       {
         "tag": "dns_resolver",
-        "type": "udp",
-        "server": "223.5.5.5"
+        "address": "223.5.5.5",
+        "detour": "DIRECT"
+      },
+      {
+        "tag": "block",
+        "address": "rcode://success"
       }
     ],
     "rules": [
       {
-        "rule_set": [
-          "geosite-category-ads-all"
+        "outbound": [
+          "any"
         ],
-        "action": "predefined",
-        "rcode": "NOERROR"
+        "server": "dns_resolver"
       },
       {
+        "geosite": [
+          "category-ads-all"
+        ],
+        "server": "dns_block",
+        "disable_cache": true
+      },
+      {
+        "geosite": [
+          "geolocation-!cn"
+        ],
         "query_type": [
           "A",
           "AAAA"
         ],
-        "server": "dns_fakeip",
-        "rule_set": [
-          "geosite-geolocation-!cn"
-        ],
-        "action": "route"
+        "server": "dns_fakeip"
       },
       {
-        "server": "dns_proxy",
-        "rule_set": [
-          "geosite-geolocation-!cn"
+        "geosite": [
+          "geolocation-!cn"
         ],
-        "action": "route"
+        "server": "dns_proxy"
       }
     ],
-    "final": "dns_direct"
+    "final": "dns_direct",
+    "independent_cache": true,
+    "fakeip": {
+      "enabled": true,
+      "inet4_range": "198.18.0.0/15"
+    }
   },
   "ntp": {
     "enabled": true,
@@ -66,407 +77,367 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "📢 https://t.me/irnova_proxy",
-      "server": "192.0.2.1",
-      "server_port": 443,
-      "uuid": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/?fake=1",
-        "headers": {
-          "Host": "npanel.hivpn.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
-      "server": "192.0.2.1",
-      "server_port": 443,
-      "uuid": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/?fake=1",
-        "headers": {
-          "Host": "npanel.hivpn.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev"
-      }
-    },
-    {
       "type": "direct",
       "tag": "DIRECT"
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]",
-      "server": "npanel.hivpn.workers.dev",
+      "tag": "سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]",
+      "server": "minty-meadow-997a.hivpn.workers.dev",
       "server_port": 443,
-      "uuid": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
+      "uuid": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
       "transport": {
-        "path": "/proxyip=149.248.199.173",
+        "path": "/3047c5a3acb7",
         "type": "ws",
         "headers": {
-          "Host": "npanel.hivpn.workers.dev"
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev",
+        "server_name": "minty-meadow-997a.hivpn.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.145.113:2083 [TROJAN]",
-      "server": "104.19.145.113",
-      "server_port": 2083,
-      "password": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=149.248.199.173",
-        "headers": {
-          "Host": "npanel.hivpn.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.255.118:2096 [SS]",
-      "server": "104.16.255.118",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.147.192:2096 [TROJAN]",
+      "server": "104.19.147.192",
       "server_port": 2096,
-      "method": "aes-128-gcm",
-      "password": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=npanel.hivpn.workers.dev;path=/proxyip\\=149.248.199.173?enc\\=aes-128-gcm;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.217.166:2083 [VLESS]",
-      "server": "104.17.217.166",
-      "server_port": 2083,
-      "uuid": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
+      "password": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
       "transport": {
-        "path": "/proxyip=149.248.199.173",
         "type": "ws",
+        "path": "/3047c5a3acb7",
         "headers": {
-          "Host": "npanel.hivpn.workers.dev"
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev",
+        "server_name": "minty-meadow-997a.hivpn.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.73.189:2083 [TROJAN]",
-      "server": "172.67.73.189",
-      "server_port": 2083,
-      "password": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=149.248.199.173",
-        "headers": {
-          "Host": "npanel.hivpn.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.245.66:443 [SS]",
-      "server": "104.16.245.66",
-      "server_port": 443,
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.26.14.182:2083 [SS]",
+      "server": "104.26.14.182",
+      "server_port": 2083,
       "method": "aes-128-gcm",
-      "password": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
+      "password": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=npanel.hivpn.workers.dev;path=/proxyip\\=149.248.199.173?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=minty-meadow-997a.hivpn.workers.dev;path=/3047c5a3acb7?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 198.41.209.251:2087 [VLESS]",
-      "server": "198.41.209.251",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.147.87:2087 [VLESS]",
+      "server": "104.17.147.87",
       "server_port": 2087,
-      "uuid": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
+      "uuid": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
       "transport": {
-        "path": "/proxyip=149.248.199.173",
+        "path": "/3047c5a3acb7",
         "type": "ws",
         "headers": {
-          "Host": "npanel.hivpn.workers.dev"
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev",
+        "server_name": "minty-meadow-997a.hivpn.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.60.247:8443 [TROJAN]",
-      "server": "104.17.60.247",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.32.223:8443 [TROJAN]",
+      "server": "104.19.32.223",
       "server_port": 8443,
-      "password": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
+      "password": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
       "transport": {
         "type": "ws",
-        "path": "/proxyip=149.248.199.173",
+        "path": "/3047c5a3acb7",
         "headers": {
-          "Host": "npanel.hivpn.workers.dev"
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev",
+        "server_name": "minty-meadow-997a.hivpn.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 8.39.125.183:2083 [SS]",
-      "server": "8.39.125.183",
-      "server_port": 2083,
-      "method": "aes-128-gcm",
-      "password": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=npanel.hivpn.workers.dev;path=/proxyip\\=149.248.199.173?enc\\=aes-128-gcm;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 198.41.223.216:443 [VLESS]",
-      "server": "198.41.223.216",
-      "server_port": 443,
-      "uuid": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
-      "transport": {
-        "path": "/proxyip=149.248.199.173",
-        "type": "ws",
-        "headers": {
-          "Host": "npanel.hivpn.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 188.164.248.65:8443 [TROJAN]",
-      "server": "188.164.248.65",
-      "server_port": 8443,
-      "password": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=149.248.199.173",
-        "headers": {
-          "Host": "npanel.hivpn.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.246.174:2083 [SS]",
-      "server": "104.16.246.174",
-      "server_port": 2083,
-      "method": "aes-128-gcm",
-      "password": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
-      "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=npanel.hivpn.workers.dev;path=/proxyip\\=149.248.199.173?enc\\=aes-128-gcm;tls",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.34.59:443 [VLESS]",
-      "server": "162.159.34.59",
-      "server_port": 443,
-      "uuid": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
-      "transport": {
-        "path": "/proxyip=149.248.199.173",
-        "type": "ws",
-        "headers": {
-          "Host": "npanel.hivpn.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 173.245.58.82:8443 [TROJAN]",
-      "server": "173.245.58.82",
-      "server_port": 8443,
-      "password": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
-      "transport": {
-        "type": "ws",
-        "path": "/proxyip=149.248.199.173",
-        "headers": {
-          "Host": "npanel.hivpn.workers.dev"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.51.246:2053 [SS]",
-      "server": "104.17.51.246",
+      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.42.60:2053 [SS]",
+      "server": "162.159.42.60",
       "server_port": 2053,
       "method": "aes-128-gcm",
-      "password": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
+      "password": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=npanel.hivpn.workers.dev;path=/proxyip\\=149.248.199.173?enc\\=aes-128-gcm;tls",
+      "plugin_opts": "mode=websocket;host=minty-meadow-997a.hivpn.workers.dev;path=/3047c5a3acb7?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.107.17:2053 [VLESS]",
-      "server": "104.17.107.17",
-      "server_port": 2053,
-      "uuid": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.33.160:2096 [VLESS]",
+      "server": "104.18.33.160",
+      "server_port": 2096,
+      "uuid": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
       "transport": {
-        "path": "/proxyip=149.248.199.173",
+        "path": "/3047c5a3acb7",
         "type": "ws",
         "headers": {
-          "Host": "npanel.hivpn.workers.dev"
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev",
+        "server_name": "minty-meadow-997a.hivpn.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.79.155:443 [TROJAN]",
-      "server": "172.67.79.155",
-      "server_port": 443,
-      "password": "8d566622-dfdb-40ea-883c-cc1cbb3ed3ea",
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.67.70.139:2053 [TROJAN]",
+      "server": "172.67.70.139",
+      "server_port": 2053,
+      "password": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
       "transport": {
         "type": "ws",
-        "path": "/proxyip=149.248.199.173",
+        "path": "/3047c5a3acb7",
         "headers": {
-          "Host": "npanel.hivpn.workers.dev"
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "npanel.hivpn.workers.dev",
+        "server_name": "minty-meadow-997a.hivpn.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.156.116:8443 [SS]",
+      "server": "104.16.156.116",
+      "server_port": 8443,
+      "method": "aes-128-gcm",
+      "password": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=minty-meadow-997a.hivpn.workers.dev;path=/3047c5a3acb7?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.243.212:2053 [VLESS]",
+      "server": "104.16.243.212",
+      "server_port": 2053,
+      "uuid": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
+      "transport": {
+        "path": "/3047c5a3acb7",
+        "type": "ws",
+        "headers": {
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "minty-meadow-997a.hivpn.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.169.61:2096 [TROJAN]",
+      "server": "104.17.169.61",
+      "server_port": 2096,
+      "password": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
+      "transport": {
+        "type": "ws",
+        "path": "/3047c5a3acb7",
+        "headers": {
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "minty-meadow-997a.hivpn.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 162.159.36.178:443 [SS]",
+      "server": "162.159.36.178",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=minty-meadow-997a.hivpn.workers.dev;path=/3047c5a3acb7?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.33.155:2087 [VLESS]",
+      "server": "104.18.33.155",
+      "server_port": 2087,
+      "uuid": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
+      "transport": {
+        "path": "/3047c5a3acb7",
+        "type": "ws",
+        "headers": {
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "minty-meadow-997a.hivpn.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.169.200:8443 [TROJAN]",
+      "server": "104.17.169.200",
+      "server_port": 8443,
+      "password": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
+      "transport": {
+        "type": "ws",
+        "path": "/3047c5a3acb7",
+        "headers": {
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "minty-meadow-997a.hivpn.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 108.162.198.21:2083 [SS]",
+      "server": "108.162.198.21",
+      "server_port": 2083,
+      "method": "aes-128-gcm",
+      "password": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=minty-meadow-997a.hivpn.workers.dev;path=/3047c5a3acb7?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.121.25:8443 [VLESS]",
+      "server": "104.17.121.25",
+      "server_port": 8443,
+      "uuid": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
+      "transport": {
+        "path": "/3047c5a3acb7",
+        "type": "ws",
+        "headers": {
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "minty-meadow-997a.hivpn.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.52.94:2083 [TROJAN]",
+      "server": "104.19.52.94",
+      "server_port": 2083,
+      "password": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
+      "transport": {
+        "type": "ws",
+        "path": "/3047c5a3acb7",
+        "headers": {
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "minty-meadow-997a.hivpn.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -474,52 +445,52 @@
       "type": "selector",
       "tag": "🚀 节点选择",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
-        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
         "DIRECT",
-        "سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.145.113:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.217.166:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.189:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.245.66:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.60.247:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.183:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.216:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.65:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.246.174:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.34.59:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 173.245.58.82:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.51.246:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.107.17:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.79.155:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.147.192:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.14.182:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.147.87:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.32.223:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.42.60:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.160:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.70.139:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.156.116:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.243.212:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.61:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.178:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.155:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.200:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.21:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.121.25:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.52.94:2083 [TROJAN]",
+        "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
     },
     {
       "type": "urltest",
       "tag": "♻️ 自动选择",
       "outbounds": [
-        "سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.145.113:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.217.166:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.189:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.245.66:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.60.247:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.183:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.216:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.65:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.246.174:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.34.59:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 173.245.58.82:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.51.246:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.107.17:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.79.155:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.147.192:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.14.182:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.147.87:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.32.223:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.42.60:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.160:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.70.139:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.156.116:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.243.212:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.61:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.178:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.155:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.200:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.21:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.121.25:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.52.94:2083 [TROJAN]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -529,154 +500,154 @@
       "type": "urltest",
       "tag": "🔯 故障转移",
       "outbounds": [
-        "سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.145.113:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.217.166:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.189:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.245.66:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.60.247:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.183:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.216:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.65:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.246.174:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.34.59:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 173.245.58.82:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.51.246:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.107.17:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.79.155:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.147.192:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.14.182:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.147.87:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.32.223:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.42.60:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.160:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.70.139:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.156.116:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.243.212:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.61:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.178:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.155:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.200:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.21:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.121.25:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.52.94:2083 [TROJAN]"
       ]
     },
     {
       "type": "urltest",
       "tag": "🔮 负载均衡",
       "outbounds": [
-        "سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.145.113:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.217.166:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.189:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.245.66:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.60.247:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.183:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.216:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.65:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.246.174:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.34.59:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 173.245.58.82:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.51.246:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.107.17:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.79.155:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.147.192:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.14.182:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.147.87:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.32.223:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.42.60:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.160:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.70.139:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.156.116:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.243.212:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.61:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.178:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.155:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.200:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.21:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.121.25:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.52.94:2083 [TROJAN]"
       ]
     },
     {
       "type": "selector",
       "tag": "🎯 全球直连",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
-        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "DIRECT",
         "🚀 节点选择",
-        "♻️ 自动选择"
+        "♻️ 自动选择",
+        "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
     },
     {
       "type": "selector",
       "tag": "🛑 全球拦截",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
-        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "REJECT",
-        "DIRECT"
+        "DIRECT",
+        "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
     },
     {
       "type": "selector",
       "tag": "🐟 漏网之鱼",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
-        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "🚀 节点选择",
         "🎯 全球直连",
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
-        "سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.145.113:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.217.166:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.189:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.245.66:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.60.247:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.183:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.216:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.65:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.246.174:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.34.59:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 173.245.58.82:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.51.246:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.107.17:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.79.155:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.147.192:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.14.182:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.147.87:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.32.223:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.42.60:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.160:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.70.139:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.156.116:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.243.212:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.61:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.178:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.155:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.200:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.21:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.121.25:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.52.94:2083 [TROJAN]",
+        "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
     },
     {
       "type": "selector",
       "tag": "☁️ CloudFlareCDN",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
-        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "🐟 漏网之鱼",
         "🚀 节点选择",
         "🎯 全球直连",
         "♻️ 自动选择",
         "🔯 故障转移",
         "🔮 负载均衡",
-        "سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.145.113:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.217.166:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.189:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.245.66:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.60.247:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.183:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.216:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.65:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.246.174:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.34.59:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 173.245.58.82:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.51.246:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.107.17:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.79.155:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.147.192:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.14.182:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.147.87:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.32.223:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.42.60:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.160:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.70.139:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.156.116:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.243.212:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.61:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.178:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.155:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.200:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.21:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.121.25:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.52.94:2083 [TROJAN]",
+        "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
     },
     {
       "type": "selector",
       "tag": "GLOBAL",
       "outbounds": [
-        "📢 https://t.me/irnova_proxy",
-        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
         "DIRECT",
-        "سرویس رایگان نوا @irnova_proxy npanel.hivpn.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.19.145.113:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.255.118:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.217.166:2083 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.73.189:2083 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.245.66:443 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.209.251:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.60.247:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 8.39.125.183:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.216:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 188.164.248.65:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.16.246.174:2083 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 162.159.34.59:443 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 173.245.58.82:8443 [TROJAN]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.51.246:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.17.107.17:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 172.67.79.155:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.147.192:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.26.14.182:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.147.87:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.32.223:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.42.60:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.160:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.67.70.139:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.156.116:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.243.212:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.61:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 162.159.36.178:443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.33.155:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.169.200:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 108.162.198.21:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.121.25:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.52.94:2083 [TROJAN]",
+        "📢 https://t.me/irnova_proxy",
+        "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01"
       ]
     },
     {
@@ -684,23 +655,44 @@
       "tag": "REJECT"
     },
     {
-      "type": "wireguard",
-      "tag": "Nova-WARP",
-      "server": "8.6.112.2",
-      "server_port": 4233,
-      "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8b81:a141:1fa:f2f3:f318/128"
-      ],
-      "private_key": "TwdtNYlteT2+Nz/BHQ3DI4gJsaiGTg5K7r/kowW+0bE=",
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [
-        104,
-        206,
-        103
-      ],
-      "mtu": 1280,
-      "detour": "🚀 节点选择"
+      "type": "vmess",
+      "tag": "📢 https://t.me/irnova_proxy",
+      "server": "192.0.2.1",
+      "server_port": 443,
+      "uuid": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/?fake=1",
+        "headers": {
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "minty-meadow-997a.hivpn.workers.dev"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01",
+      "server": "192.0.2.1",
+      "server_port": 443,
+      "uuid": "2df513b3-f14c-4ef9-8538-edf869e0c4ac",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/?fake=1",
+        "headers": {
+          "Host": "minty-meadow-997a.hivpn.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "minty-meadow-997a.hivpn.workers.dev"
+      }
     }
   ],
   "route": {
@@ -7303,7 +7295,11 @@
           "yfm7nstt.nr94p.adobestats.io",
           "ylvb9g7k5n.nr94p.adobestats.io",
           "zcq3wsd5lnx.nr94p.adobestats.io",
-          "zkw1mdmx.nr94p.adobestats.io"
+          "zkw1mdmx.nr94p.adobestats.io",
+          "27e10lrjk6f.61y77.adobestats.io",
+          "picrx8i067.61y77.adobestats.io",
+          "bpkh681n1.hmq9r.adobestats.io",
+          "hw7w59pe.ok0r5.adobestats.io"
         ],
         "outbound": "🛑 全球拦截",
         "action": "route"
@@ -9344,26 +9340,21 @@
           "5.252.81.0/24",
           "8.6.112.0/24",
           "8.20.125.0/24",
-          "8.21.9.0/24",
           "8.21.10.0/24",
           "8.21.111.0/24",
           "8.24.87.0/24",
-          "8.25.97.0/24",
           "8.27.64.0/24",
           "8.27.66.0/23",
-          "8.27.68.0/24",
           "8.29.109.0/24",
           "8.29.228.0/24",
           "8.29.230.0/23",
           "8.31.160.0/23",
-          "8.34.70.0/23",
+          "8.34.70.0/24",
           "8.34.146.0/24",
           "8.35.211.0/24",
-          "8.37.43.0/24",
           "8.39.125.0/24",
           "8.39.204.0/24",
           "8.39.214.0/24",
-          "8.44.2.0/24",
           "8.44.61.0/24",
           "8.47.13.0/24",
           "8.47.69.0/24",
@@ -9376,6 +9367,7 @@
           "31.185.108.0/24",
           "37.153.170.0/23",
           "38.96.28.0/23",
+          "42.61.47.0/24",
           "43.228.232.0/23",
           "43.230.112.0/23",
           "43.230.114.0/24",
@@ -9401,6 +9393,7 @@
           "51.194.144.0/22",
           "51.241.128.0/23",
           "57.250.49.0/24",
+          "61.8.33.0/24",
           "61.32.240.0/24",
           "61.245.108.0/24",
           "62.146.255.0/24",
@@ -9427,7 +9420,9 @@
           "82.22.16.0/24",
           "82.25.20.0/24",
           "82.26.156.0/24",
+          "82.109.153.0/24",
           "82.139.216.0/23",
+          "87.86.16.0/24",
           "87.232.75.0/24",
           "88.216.69.0/24",
           "89.46.251.0/24",
@@ -9491,17 +9486,17 @@
           "104.22.112.0/21",
           "104.22.120.0/24",
           "104.22.123.0/24",
-          "104.22.127.0/24",
+          "104.22.126.0/23",
           "104.22.128.0/23",
           "104.22.131.0/24",
           "104.22.132.0/23",
           "104.22.134.0/24",
           "104.22.136.0/22",
           "104.22.140.0/23",
-          "104.22.148.0/23",
-          "104.22.150.0/24",
           "104.22.155.0/24",
           "104.22.156.0/22",
+          "104.22.160.0/23",
+          "104.22.162.0/24",
           "104.22.165.0/24",
           "104.22.167.0/24",
           "104.22.168.0/24",
@@ -9511,7 +9506,8 @@
           "104.22.176.0/22",
           "104.22.180.0/23",
           "104.22.186.0/23",
-          "104.22.190.0/24",
+          "104.22.190.0/23",
+          "104.22.192.0/24",
           "104.23.160.0/20",
           "104.23.176.0/23",
           "104.23.178.0/24",
@@ -9533,12 +9529,8 @@
           "104.27.0.0/17",
           "104.27.192.0/20",
           "104.28.0.0/16",
-          "104.29.5.0/24",
-          "104.29.6.0/24",
           "104.29.9.0/24",
           "104.29.45.0/24",
-          "104.29.63.0/24",
-          "104.29.73.0/24",
           "104.29.77.0/24",
           "104.29.92.0/23",
           "104.29.111.0/24",
@@ -9617,6 +9609,7 @@
           "147.189.42.0/23",
           "148.224.60.0/24",
           "148.227.167.0/24",
+          "149.112.78.0/24",
           "150.48.128.0/18",
           "151.243.133.0/24",
           "151.245.127.0/24",
@@ -9627,6 +9620,7 @@
           "154.81.141.0/24",
           "154.84.164.0/24",
           "154.86.118.0/24",
+          "154.193.63.0/24",
           "154.193.133.0/24",
           "154.193.184.0/24",
           "154.200.89.0/24",
@@ -9636,6 +9630,7 @@
           "156.70.60.0/24",
           "156.71.149.0/24",
           "156.224.73.0/24",
+          "156.238.181.0/24",
           "156.243.83.0/24",
           "156.246.69.0/24",
           "156.246.70.0/24",
@@ -9647,7 +9642,7 @@
           "162.44.104.0/22",
           "162.158.0.0/21",
           "162.158.8.0/24",
-          "162.158.10.0/23",
+          "162.158.10.0/24",
           "162.158.12.0/22",
           "162.158.16.0/21",
           "162.158.24.0/23",
@@ -9660,7 +9655,6 @@
           "162.158.40.0/22",
           "162.158.44.0/24",
           "162.158.48.0/21",
-          "162.158.56.0/24",
           "162.158.61.0/24",
           "162.158.62.0/23",
           "162.158.73.0/24",
@@ -9859,7 +9853,6 @@
           "172.68.244.0/22",
           "172.68.248.0/23",
           "172.68.251.0/24",
-          "172.68.252.0/24",
           "172.68.255.0/24",
           "172.69.0.0/22",
           "172.69.5.0/24",
@@ -9943,7 +9936,8 @@
           "172.69.241.0/24",
           "172.69.245.0/24",
           "172.69.246.0/23",
-          "172.69.248.0/22",
+          "172.69.248.0/23",
+          "172.69.251.0/24",
           "172.69.253.0/24",
           "172.69.255.0/24",
           "172.70.32.0/20",
@@ -10049,6 +10043,7 @@
           "173.245.63.0/24",
           "176.103.113.0/24",
           "178.83.176.0/24",
+          "178.93.117.0/24",
           "178.94.249.0/24",
           "181.215.196.0/24",
           "182.23.210.0/24",
@@ -10121,9 +10116,11 @@
           "198.41.238.0/23",
           "198.41.240.0/23",
           "198.41.242.0/24",
+          "198.52.36.0/24",
           "198.148.174.0/24",
           "198.217.251.0/24",
           "198.252.206.0/24",
+          "199.7.70.0/24",
           "199.27.128.0/21",
           "199.65.62.0/24",
           "199.68.16.0/22",
@@ -10136,6 +10133,8 @@
           "203.117.53.0/24",
           "203.120.52.0/24",
           "204.4.235.0/24",
+          "204.62.121.0/24",
+          "204.62.122.0/24",
           "204.69.207.0/24",
           "204.153.16.0/24",
           "204.195.192.0/18",
@@ -10209,7 +10208,7 @@
       }
     ],
     "auto_detect_interface": true,
-    "final": "Nova-WARP",
+    "final": "🐟 漏网之鱼",
     "rule_set": [
       {
         "tag": "geoip-cn",
@@ -10228,21 +10227,8 @@
         "tag": "geosite-category-phishing",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-phishing.srs"
-      },
-      {
-        "tag": "geosite-category-ads-all",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads-all.srs"
-      },
-      {
-        "tag": "geosite-geolocation-!cn",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-!cn.srs"
       }
-    ],
-    "default_domain_resolver": "dns_resolver"
+    ]
   },
   "experimental": {
     "cache_file": {
