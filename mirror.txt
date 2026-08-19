@@ -1,3 +1,6 @@
+http://45.144.53.63:5001#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Phoenix%20%7C%20%E2%8F%B11025ms%20%7C%20%E2%9A%A1560KB%2Fs%20%7C%20%40NamazVPN
+http://45.144.53.63:5041#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Phoenix%20%7C%20%E2%8F%B11004ms%20%7C%20%E2%9A%A1642KB%2Fs%20%7C%20%40NamazVPN
+vless://47a97b7f-044d-43d6-86b0-8b256873d1b5@45.121.50.241:50159?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=E9gCs_C_mSDcHmlCZSMk1kSXpmua48DhgsT_aDpZ1WE&sid=4c3f80051030ba1b&allowInsecure=1#%F0%9F%87%B9%F0%9F%87%BC%20Taiwan%20Neihu%20District%20%7C%20%E2%8F%B14610ms%20%7C%20%E2%9A%A187KB%2Fs%20%7C%20%40NamazVPN
 http://45.134.81.36:38080#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20Hong%20Kong%20%7C%20%E2%8F%B11075ms%20%7C%20%E2%9A%A1231KB%2Fs%20%7C%20%40NamazVPN
 http://45.128.184.25:80#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20Moscow%20%7C%20%E2%8F%B17664ms%20%7C%20%E2%9A%A1493KB%2Fs%20%7C%20%40NamazVPN
 vless://a8307b5d-2d9e-4d34-912d-5b5dd8340082@uk.zelnora.ir:64584#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20London%20%7C%20%E2%8F%B1339ms%20%7C%20%E2%9A%A11.1MB%2Fs%20%7C%20%40NamazVPN
@@ -195,6 +198,3 @@ vless://0b772594-d6b9-4f4f-849b-8a6f92f594fe@43.165.177.82:443?security=reality&
 vless://928e6cce-8ced-4243-9a48-a6642edd09b0@111.119.235.145:13779?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=tesla.com&fp=chrome&pbk=llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg&sid=af1bdd293097b664&allowInsecure=1#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%20Singapore%20%7C%20%E2%8F%B15645ms%20%7C%20%E2%9A%A1216KB%2Fs%20%7C%20%40NamazVPN
 http://190.97.236.129:999#%F0%9F%87%BB%F0%9F%87%AA%20Venezuela%20La%20Fr%C3%ADa%20%7C%20%E2%8F%B11125ms%20%7C%20%E2%9A%A1334KB%2Fs%20%7C%20%40NamazVPN
 http://190.97.236.128:999#%F0%9F%87%BB%F0%9F%87%AA%20Venezuela%20La%20Fr%C3%ADa%20%7C%20%E2%8F%B11117ms%20%7C%20%E2%9A%A1333KB%2Fs%20%7C%20%40NamazVPN
-vless://834d8b71-2076-4f5a-d3f3-3dc3c2bb7196@k2.cloud--vpn.site:443?path=%2F&security=tls&alpn=h2&encryption=none&insecure=0&host=c12.com&fp=firefox&type=ws&allowInsecure=0&sni=ssl.fastly.com#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20Helsinki%20%7C%20%E2%8F%B1609ms%20%7C%20%E2%9A%A11.0MB%2Fs%20%7C%20%40NamazVPN
-vless://9934f538-e22f-48f7-80bc-856d7041a38a@store19.vevluma.ir:1234?security=reality&encryption=none&pbk=4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=updates.cdn-apple.com&sid=4844fb0c077b20b7#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20Helsinki%20%7C%20%E2%8F%B1473ms%20%7C%20%E2%9A%A11.0MB%2Fs%20%7C%20%40NamazVPN
-http://190.237.238.26:999#%F0%9F%87%B5%F0%9F%87%AA%20Peru%20Paij%C3%A1n%20%7C%20%E2%8F%B16393ms%20%7C%20%E2%9A%A192KB%2Fs%20%7C%20%40NamazVPN
