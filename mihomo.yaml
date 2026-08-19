@@ -31,23 +31,23 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, alterId: 0, cipher: auto, tls: true, servername: "minty-meadow-997a.hivpn.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "minty-meadow-997a.hivpn.workers.dev"}}, udp: false}
   - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, alterId: 0, cipher: auto, tls: true, servername: "minty-meadow-997a.hivpn.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "minty-meadow-997a.hivpn.workers.dev"}}, udp: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]", server: minty-meadow-997a.hivpn.workers.dev, port: 443, type: vless, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, tls: true, skip-cert-verify: false, servername: minty-meadow-997a.hivpn.workers.dev, client-fingerprint: unsafe, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.249.233:2083 [TROJAN]", server: 104.16.249.233, port: 2083, type: trojan, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, sni: minty-meadow-997a.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.56.112:2083 [SS]", server: 104.17.56.112, port: 2083, type: ss, cipher: aes-128-gcm, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: minty-meadow-997a.hivpn.workers.dev, path: "/3047c5a3acb7?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.54.174:8443 [VLESS]", server: 104.19.54.174, port: 8443, type: vless, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, tls: true, skip-cert-verify: false, servername: minty-meadow-997a.hivpn.workers.dev, client-fingerprint: unsafe, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.38.14:2053 [TROJAN]", server: 162.159.38.14, port: 2053, type: trojan, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, sni: minty-meadow-997a.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.46:2087 [SS]", server: 188.164.248.46, port: 2087, type: ss, cipher: aes-128-gcm, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: minty-meadow-997a.hivpn.workers.dev, path: "/3047c5a3acb7?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.33.139:2053 [VLESS]", server: 104.19.33.139, port: 2053, type: vless, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, tls: true, skip-cert-verify: false, servername: minty-meadow-997a.hivpn.workers.dev, client-fingerprint: unsafe, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.116:2053 [TROJAN]", server: 188.164.248.116, port: 2053, type: trojan, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, sni: minty-meadow-997a.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.1.207:2096 [SS]", server: 172.66.1.207, port: 2096, type: ss, cipher: aes-128-gcm, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: minty-meadow-997a.hivpn.workers.dev, path: "/3047c5a3acb7?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.106:2087 [VLESS]", server: 108.162.198.106, port: 2087, type: vless, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, tls: true, skip-cert-verify: false, servername: minty-meadow-997a.hivpn.workers.dev, client-fingerprint: unsafe, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.38.236:2096 [TROJAN]", server: 162.159.38.236, port: 2096, type: trojan, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, sni: minty-meadow-997a.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.67.22:2096 [SS]", server: 172.67.67.22, port: 2096, type: ss, cipher: aes-128-gcm, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: minty-meadow-997a.hivpn.workers.dev, path: "/3047c5a3acb7?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.16.115:2087 [VLESS]", server: 104.17.16.115, port: 2087, type: vless, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, tls: true, skip-cert-verify: false, servername: minty-meadow-997a.hivpn.workers.dev, client-fingerprint: unsafe, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.1.1:8443 [TROJAN]", server: 104.26.1.1, port: 8443, type: trojan, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, sni: minty-meadow-997a.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.127.144:2096 [SS]", server: 104.17.127.144, port: 2096, type: ss, cipher: aes-128-gcm, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: minty-meadow-997a.hivpn.workers.dev, path: "/3047c5a3acb7?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.190.68:2087 [VLESS]", server: 104.17.190.68, port: 2087, type: vless, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, tls: true, skip-cert-verify: false, servername: minty-meadow-997a.hivpn.workers.dev, client-fingerprint: unsafe, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.125.58:8443 [TROJAN]", server: 104.17.125.58, port: 8443, type: trojan, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, sni: minty-meadow-997a.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]", server: minty-meadow-997a.hivpn.workers.dev, port: 443, type: vless, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, tls: true, skip-cert-verify: false, servername: minty-meadow-997a.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.144.34:2096 [TROJAN]", server: 104.17.144.34, port: 2096, type: trojan, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, sni: minty-meadow-997a.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.38.81:443 [SS]", server: 162.159.38.81, port: 443, type: ss, cipher: aes-128-gcm, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: minty-meadow-997a.hivpn.workers.dev, path: "/3047c5a3acb7?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.170.69:2096 [VLESS]", server: 104.17.170.69, port: 2096, type: vless, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, tls: true, skip-cert-verify: false, servername: minty-meadow-997a.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.121:443 [TROJAN]", server: 8.35.211.121, port: 443, type: trojan, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, sni: minty-meadow-997a.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.9.133:2087 [SS]", server: 104.26.9.133, port: 2087, type: ss, cipher: aes-128-gcm, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: minty-meadow-997a.hivpn.workers.dev, path: "/3047c5a3acb7?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.150.107:2087 [VLESS]", server: 104.16.150.107, port: 2087, type: vless, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, tls: true, skip-cert-verify: false, servername: minty-meadow-997a.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.74.128:2096 [TROJAN]", server: 172.67.74.128, port: 2096, type: trojan, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, sni: minty-meadow-997a.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.53.104:2096 [SS]", server: 104.19.53.104, port: 2096, type: ss, cipher: aes-128-gcm, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: minty-meadow-997a.hivpn.workers.dev, path: "/3047c5a3acb7?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.29.168:2053 [VLESS]", server: 104.17.29.168, port: 2053, type: vless, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, tls: true, skip-cert-verify: false, servername: minty-meadow-997a.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.21:443 [TROJAN]", server: 8.39.125.21, port: 443, type: trojan, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, sni: minty-meadow-997a.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.54.216:2083 [SS]", server: 104.19.54.216, port: 2083, type: ss, cipher: aes-128-gcm, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: minty-meadow-997a.hivpn.workers.dev, path: "/3047c5a3acb7?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.255.115:2083 [VLESS]", server: 104.16.255.115, port: 2083, type: vless, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, tls: true, skip-cert-verify: false, servername: minty-meadow-997a.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.34.106:2083 [TROJAN]", server: 104.19.34.106, port: 2083, type: trojan, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, sni: minty-meadow-997a.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.245:443 [SS]", server: 8.35.211.245, port: 443, type: ss, cipher: aes-128-gcm, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: minty-meadow-997a.hivpn.workers.dev, path: "/3047c5a3acb7?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.209.95:2053 [VLESS]", server: 198.41.209.95, port: 2053, type: vless, uuid: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, tls: true, skip-cert-verify: false, servername: minty-meadow-997a.hivpn.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.146.247:2083 [TROJAN]", server: 104.19.146.247, port: 2083, type: trojan, password: 2df513b3-f14c-4ef9-8538-edf869e0c4ac, sni: minty-meadow-997a.hivpn.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /3047c5a3acb7, headers: {Host: minty-meadow-997a.hivpn.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -59,22 +59,22 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.249.233:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.56.112:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.54.174:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.14:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.46:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.139:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.116:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.1.207:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.106:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.236:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.67.22:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.16.115:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.1.1:8443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.127.144:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.190.68:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.125.58:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.144.34:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.81:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.170.69:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.121:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.133:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.150.107:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.74.128:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.53.104:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.29.168:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.21:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.216:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.255.115:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.34.106:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.245:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.95:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.146.247:2083 [TROJAN]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -82,44 +82,44 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.249.233:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.56.112:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.54.174:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.14:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.46:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.139:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.116:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.1.207:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.106:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.236:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.67.22:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.16.115:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.1.1:8443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.127.144:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.190.68:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.125.58:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.144.34:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.81:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.170.69:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.121:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.133:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.150.107:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.74.128:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.53.104:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.29.168:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.21:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.216:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.255.115:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.34.106:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.245:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.95:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.146.247:2083 [TROJAN]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.249.233:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.56.112:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.54.174:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.14:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.46:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.139:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.116:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.1.207:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.106:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.236:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.67.22:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.16.115:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.1.1:8443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.127.144:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.190.68:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.125.58:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.144.34:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.81:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.170.69:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.121:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.133:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.150.107:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.74.128:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.53.104:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.29.168:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.21:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.216:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.255.115:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.34.106:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.245:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.95:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.146.247:2083 [TROJAN]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -127,22 +127,22 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.249.233:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.56.112:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.54.174:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.14:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.46:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.139:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.116:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.1.207:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.106:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.236:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.67.22:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.16.115:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.1.1:8443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.127.144:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.190.68:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.125.58:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.144.34:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.81:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.170.69:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.121:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.133:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.150.107:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.74.128:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.53.104:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.29.168:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.21:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.216:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.255.115:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.34.106:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.245:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.95:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.146.247:2083 [TROJAN]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -169,22 +169,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.249.233:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.56.112:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.54.174:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.14:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.46:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.139:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.116:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.1.207:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.106:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.236:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.67.22:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.16.115:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.1.1:8443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.127.144:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.190.68:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.125.58:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.144.34:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.81:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.170.69:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.121:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.133:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.150.107:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.74.128:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.53.104:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.29.168:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.21:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.216:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.255.115:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.34.106:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.245:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.95:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.146.247:2083 [TROJAN]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -197,22 +197,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy minty-meadow-997a.hivpn.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.249.233:2083 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.56.112:2083 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.54.174:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.14:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.46:2087 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.19.33.139:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 188.164.248.116:2053 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.66.1.207:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 108.162.198.106:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.236:2096 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 172.67.67.22:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.16.115:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.1.1:8443 [TROJAN]
-      - سرویس رایگان نوا @irnova_proxy 104.17.127.144:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.190.68:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.125.58:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.144.34:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 162.159.38.81:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.170.69:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.121:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.26.9.133:2087 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.150.107:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.74.128:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.53.104:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.29.168:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 8.39.125.21:443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.19.54.216:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.255.115:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.34.106:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 8.35.211.245:443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.209.95:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.146.247:2083 [TROJAN]
 rules:
 # IRANIAN DIRECT RULES
   - DOMAIN-SUFFIX,ir,DIRECT
@@ -8723,7 +8723,6 @@ rules:
   - IP-CIDR,8.6.112.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.20.125.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.21.10.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.21.111.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.24.87.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.27.64.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.27.66.0/23,☁️ CloudFlareCDN,no-resolve
@@ -8737,8 +8736,6 @@ rules:
   - IP-CIDR,8.39.125.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.39.204.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.39.214.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.44.61.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,8.47.13.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,8.47.69.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.131.204.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,23.227.37.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8762,7 +8759,6 @@ rules:
   - IP-CIDR,45.157.17.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.192.223.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.192.224.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,45.195.14.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.195.153.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.196.29.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,45.198.114.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8802,6 +8798,7 @@ rules:
   - IP-CIDR,82.22.16.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.25.20.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.26.156.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,82.47.124.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.109.153.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,82.139.216.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,87.86.16.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8809,7 +8806,6 @@ rules:
   - IP-CIDR,88.216.69.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.46.251.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,89.106.90.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,89.249.200.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.206.71.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.213.221.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,91.224.186.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8875,10 +8871,10 @@ rules:
   - IP-CIDR,104.22.134.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.136.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.140.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.148.0/23,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.150.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.155.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.156.0/22,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.160.0/23,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.22.162.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.165.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.167.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.168.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8890,6 +8886,8 @@ rules:
   - IP-CIDR,104.22.186.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.190.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.22.192.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.219.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,104.22.220.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.160.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.176.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.23.178.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8911,13 +8909,7 @@ rules:
   - IP-CIDR,104.27.0.0/17,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.27.192.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.28.0.0/16,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.9.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.45.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.77.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.92.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.29.111.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.114.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,104.29.121.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.29.124.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.29.128.0/18,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,104.30.0.0/19,☁️ CloudFlareCDN,no-resolve
@@ -8949,6 +8941,7 @@ rules:
   - IP-CIDR,108.162.248.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,108.162.250.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,109.234.211.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,122.152.164.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.108.75.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.253.173.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,123.253.174.0/24,☁️ CloudFlareCDN,no-resolve
@@ -8980,11 +8973,13 @@ rules:
   - IP-CIDR,143.14.142.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,143.14.224.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,143.14.251.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,144.56.84.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.208.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.211.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.212.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.124.214.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,144.208.122.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,144.225.90.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,145.63.64.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,145.224.255.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,146.19.108.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9260,6 +9255,7 @@ rules:
   - IP-CIDR,172.69.72.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.74.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.79.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,172.69.80.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.82.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.86.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.69.88.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9427,6 +9423,7 @@ rules:
   - IP-CIDR,178.83.176.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,178.93.117.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,178.94.249.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,180.255.25.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,181.215.196.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,182.23.210.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.7.240.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9435,6 +9432,7 @@ rules:
   - IP-CIDR,185.38.25.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.41.148.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.60.251.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,185.106.205.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.132.85.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.132.86.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.133.172.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9474,7 +9472,6 @@ rules:
   - IP-CIDR,194.34.84.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.34.88.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.34.93.0/24,☁️ CloudFlareCDN,no-resolve
-  - IP-CIDR,194.41.114.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.77.235.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,194.152.130.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,195.66.29.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9507,10 +9504,12 @@ rules:
   - IP-CIDR,199.65.62.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,199.68.16.0/22,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,200.69.28.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,200.218.32.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,202.27.69.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,202.49.114.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.5.33.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.15.65.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,203.116.108.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.117.8.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.117.53.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,203.120.52.0/24,☁️ CloudFlareCDN,no-resolve
@@ -9570,6 +9569,7 @@ rules:
   - IP-CIDR,104.23.64.0/19,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,141.101.64.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,141.101.91.0/24,☁️ CloudFlareCDN,no-resolve
+  - IP-CIDR,162.159.83.0/24,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.32.0/19,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,172.71.64.0/20,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,198.41.143.0/24,☁️ CloudFlareCDN,no-resolve
