@@ -1,3 +1,7 @@
+vless://b97e287f-a24e-0021-a103-7e7ecef83139@185.218.194.71:443?flow=xtls-rprx-vision&fp=qq&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&security=reality&sid=e1f8a3b6&sni=www.amd.com&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20Turku%20%7C%20%E2%8F%B1454ms%20%7C%20%E2%9A%A11.1MB%2Fs%20%7C%20%40NamazVPN
+vless://e01b5875-0b0b-4056-bbf5-0b0ecdc97937@128.1.12.164:443?security=reality&encryption=none&pbk=Z41OxiwFrf0VAEv7_qXoEMKSmLJPjEPPJzXpP1s6gGk&headerType=&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=977a84fa5512be5a#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20Hong%20Kong%20%7C%20%E2%8F%B11213ms%20%7C%20%E2%9A%A1372KB%2Fs%20%7C%20%40NamazVPN
+ss://YWVzLTI1Ni1nY206QW1lcmljYTIwMjZATEFY@192.220.55.35:48378#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Los%20Angeles%20%7C%20%E2%8F%B13767ms%20%7C%20%E2%9A%A1448KB%2Fs%20%7C%20%40NamazVPN
+http://115.231.181.40:8128#%F0%9F%87%A8%F0%9F%87%B3%20China%20Hangzhou%20%7C%20%E2%8F%B11517ms%20%7C%20%E2%9A%A1341KB%2Fs%20%7C%20%40NamazVPN
 http://114.141.50.210:8080#%F0%9F%87%AE%F0%9F%87%A9%20Indonesia%20Bekasi%20%7C%20%E2%8F%B11978ms%20%7C%20%E2%9A%A1143KB%2Fs%20%7C%20%40NamazVPN
 vless://daf0c4cb-3541-4f20-bc71-cc9d94bb17bc@128.1.12.19:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=BF9aCRIeWaFADnCRCeEKsX1SSRaqAPrXttdD9eFCl0k&security=reality&sid=96b6483bfb4ac526&sni=www.bing.com&type=tcp#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20Hong%20Kong%20%7C%20%E2%8F%B11135ms%20%7C%20%E2%9A%A1185KB%2Fs%20%7C%20%40NamazVPN
 vless://13efddd3-1a20-49f3-bbbe-f5b530398bb6@tr.cellser.ir:24949?security=reality&encryption=none&pbk=qjRHJ5qtLh5zJymurmhkrpBHl1yN0EeRByRznftR3Hw&headerType=none&fp=chrome&spx=%2F92fbd14f496a43d&type=tcp&sni=www.yahoo.com&sid=e5cdac#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20Frankfurt%20am%20Main%20%7C%20%E2%8F%B1617ms%20%7C%20%E2%9A%A11.0MB%2Fs%20%7C%20%40NamazVPN
@@ -194,7 +198,3 @@ http://91.228.133.191:8888#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Seattle%
 socks://147.45.221.111:1082#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%E2%8F%B14565ms%20%7C%20%E2%9A%A11.0MB%2Fs%20%7C%20%40NamazVPN
 http://93.118.142.196:8088#%F0%9F%87%B9%F0%9F%87%AF%20Tajikistan%20Dushanbe%20%7C%20%E2%8F%B11365ms%20%7C%20%E2%9A%A1224KB%2Fs%20%7C%20%40NamazVPN
 socks://45.144.54.40:1080#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20London%20%7C%20%E2%8F%B11456ms%20%7C%20%E2%9A%A1313KB%2Fs%20%7C%20%40NamazVPN
-ss://YWVzLTI1Ni1nY206cWZKWm5xOTF3NmFYOEsxWQ@209.38.142.23:80#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Santa%20Clara%20%7C%20%E2%8F%B1739ms%20%7C%20%E2%9A%A1436KB%2Fs%20%7C%20%40NamazVPN
-socks://185.185.80.58:1088#%F0%9F%87%AB%F0%9F%87%B7%20France%20Lauterbourg%20%7C%20%E2%8F%B1662ms%20%7C%20%E2%9A%A1607KB%2Fs%20%7C%20%40NamazVPN
-socks://88.80.186.173:19100#%F0%9F%87%AD%F0%9F%87%BA%20Hungary%20Budapest%20%28XIII.%20ker%C3%BClet%29%20%7C%20%E2%8F%B12586ms%20%7C%20%E2%9A%A1344KB%2Fs%20%7C%20%40NamazVPN
-socks://147.45.60.246:1082#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%E2%8F%B11923ms%20%7C%20%E2%9A%A177KB%2Fs%20%7C%20%40NamazVPN
