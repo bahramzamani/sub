@@ -1,3 +1,5 @@
+vless://38dd06a1-e1cb-492b-bb87-218ce05d0d67@185.143.233.5:80?type=ws&headerType=none&host=fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir&path=%2F#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20Pard%C4%ABs%20%7C%20%E2%8F%B1351ms%20%7C%20%E2%9A%A11.2MB%2Fs%20%7C%20%40NamazVPN
+http://212.16.86.46:8080#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20Tehran%20%7C%20%E2%8F%B14556ms%20%7C%20%E2%9A%A1139KB%2Fs%20%7C%20%40NamazVPN
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@138.249.20.37:443?type=tcp&security=reality&sni=eu-central.cendora.ru&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&fp=chrome&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%B9%F0%9F%87%B7%20T%C3%BCrkiye%20Izmir%20%7C%20%E2%8F%B1528ms%20%7C%20%E2%9A%A171KB%2Fs%20%7C%20%40NamazVPN
 vless://f13ec484-0d6f-468b-a683-9b7b22770446@153.75.88.69:8080?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%E2%8F%B1335ms%20%7C%20%E2%9A%A1936KB%2Fs%20%7C%20%40NamazVPN
 vless://f13ec484-0d6f-468b-a683-9b7b22770446@153.75.88.69:110?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%E2%8F%B1329ms%20%7C%20%E2%9A%A11002KB%2Fs%20%7C%20%40NamazVPN
@@ -196,5 +198,3 @@ vmess://eyJhZGQiOiJndWFud2FuZy5hd3Nuby5jb20iLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoi
 http://161.35.181.96:999#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Clifton%20%7C%20%E2%8F%B1745ms%20%7C%20%E2%9A%A1542KB%2Fs%20%7C%20%40NamazVPN
 http://160.238.65.3:3128#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20%E2%8F%B11466ms%20%7C%20%E2%9A%A1609KB%2Fs%20%7C%20%40NamazVPN
 http://160.238.65.6:3128#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20%E2%8F%B1421ms%20%7C%20%E2%9A%A1814KB%2Fs%20%7C%20%40NamazVPN
-vless://86c2939c-4506-4028-cdc9-6fe073890e81@k2.cloud--vpn.site:443?encryption=none&type=ws&security=tls&path=%2F&host=c12.com&sni=ssl.fastly.com&alpn=h2&fp=firefox&insecure=0&allowInsecure=0#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20Helsinki%20%7C%20%E2%8F%B1542ms%20%7C%20%E2%9A%A11.0MB%2Fs%20%7C%20%40NamazVPN
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxYjB1Uk4ycjhDQUNpMXRxT3NaTjNuNWpfSWN5cWNFbQ@Irj.jobwebs.ir:25341#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20Nuremberg%20%7C%20%E2%8F%B1314ms%20%7C%20%E2%9A%A1627KB%2Fs%20%7C%20%40NamazVPN
