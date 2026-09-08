@@ -1,3 +1,5 @@
+socks://123:123@8.217.241.104:3060#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20Hong%20Kong%20%7C%20%E2%8F%B11606ms%20%7C%20%E2%9A%A1203KB%2Fs%20%7C%20%40NamazVPN
+socks://169.58.97.115:1080#%F0%9F%87%AB%F0%9F%87%B7%20France%20Lauterbourg%20%7C%20%E2%8F%B1999ms%20%7C%20%E2%9A%A1359KB%2Fs%20%7C%20%40NamazVPN
 hysteria2://QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s@162.249.125.133:443?sni=hy2-new.aspidnet.xyz&obfs=salamander&insecure=0&security=tls&obfs-password=c1b4086fea89914496c7e10967a419216566#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20%E2%8F%B1601ms%20%7C%20%E2%9A%A11.3MB%2Fs%20%7C%20%40NamazVPN
 vless://14f4be39-cb89-4f2b-8200-704666b6fa4e@95.85.241.209:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=google.com&fp=firefox&pbk=vZ22ThhkpXUd5-tY-v5TTrouLHjgYYmeQgqeLt7HRz0&allowInsecure=1#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20%E2%8F%B1524ms%20%7C%20%E2%9A%A1274KB%2Fs%20%7C%20%40NamazVPN
 ss://YWVzLTI1Ni1nY206WmpJeU1ERTRNV1V4WW1RMFpUQXdaRFF3WVRCa1kySTFOR00wWkdWaQ@94.101.187.94:9112?prefix=%16%03%01%00%C2%A8%01%01#%F0%9F%87%B3%F0%9F%87%B4%20Norway%20Nordland%20%7C%20%E2%8F%B1325ms%20%7C%20%E2%9A%A11.7MB%2Fs%20%7C%20%40NamazVPN
@@ -246,5 +248,3 @@ hysteria2://vz86jgszv4zszchv@giftcard.gateway-stream.com:52062?sni=&obfs=salaman
 http://88.218.121.235:3128#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20Amsterdam%20%7C%20%E2%8F%B12521ms%20%7C%20%E2%9A%A1626KB%2Fs%20%7C%20%40NamazVPN
 http://87.225.98.158:81#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20Khabarovsk%20%7C%20%E2%8F%B16272ms%20%7C%20%E2%9A%A1149KB%2Fs%20%7C%20%40NamazVPN
 http://87.107.9.171:3128#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20Tehr%C4%81n%20%28District%202%29%20%7C%20%E2%8F%B1568ms%20%7C%20%E2%9A%A1982KB%2Fs%20%7C%20%40NamazVPN
-http://85.193.65.88:8888#%F0%9F%87%BA%F0%9F%87%A6%20Ukraine%20%7C%20%E2%8F%B11899ms%20%7C%20%E2%9A%A1423KB%2Fs%20%7C%20%40NamazVPN
-vless://8b54a46a-e66b-48cc-bf5a-88f0855a3598@plll.banibus.ir:8118?encryption=none&security=reality&sni=play.googleapis.com&fp=ios&pbk=LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM&type=tcp&headerType=none#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20Warsaw%20%7C%20%E2%8F%B1486ms%20%7C%20%E2%9A%A11019KB%2Fs%20%7C%20%40NamazVPN
