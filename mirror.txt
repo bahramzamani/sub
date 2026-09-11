@@ -1,3 +1,8 @@
+vless://XpnTeam-13@140.248.186.45:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20Nuremberg%20%7C%20%E2%8F%B1550ms%20%7C%20%E2%9A%A1769KB%2Fs%20%7C%20%40NamazVPN
+vless://6f8acdfd-0ce0-4386-ba02-5040da4c6fea@207.57.135.123:35621?security=reality&encryption=none&pbk=wK6kCgPEjDA7KADag0eZUc8e523kdIOCh8Qavkb15nA&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20Mong%20Kok%20%7C%20%E2%8F%B11039ms%20%7C%20%E2%9A%A1368KB%2Fs%20%7C%20%40NamazVPN
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.134.91.196:22223?encryption=none&security=none&type=tcp#%F0%9F%87%AE%F0%9F%87%AA%20Ireland%20%7C%20%E2%8F%B1393ms%20%7C%20%E2%9A%A1214KB%2Fs%20%7C%20%40NamazVPN
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.134.91.196:22224?encryption=none&security=none&type=tcp#%F0%9F%87%AE%F0%9F%87%AA%20Ireland%20%7C%20%E2%8F%B1385ms%20%7C%20%E2%9A%A11.1MB%2Fs%20%7C%20%40NamazVPN
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.134.91.196:22222?encryption=none&security=none&type=tcp#%F0%9F%87%AE%F0%9F%87%AA%20Ireland%20%7C%20%E2%8F%B1328ms%20%7C%20%E2%9A%A11006KB%2Fs%20%7C%20%40NamazVPN
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@16.61.187.149:22223?security=&encryption=none&headerType=&type=tcp#%F0%9F%87%AE%F0%9F%87%AA%20Ireland%20%7C%20%E2%8F%B1329ms%20%7C%20%E2%9A%A11.1MB%2Fs%20%7C%20%40NamazVPN
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.130.157:22222?security=&alpn=v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus&encryption=none&headerType=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20France%20Paris%20%7C%20%E2%8F%B1302ms%20%7C%20%E2%9A%A11.2MB%2Fs%20%7C%20%40NamazVPN
 vless://3e05376a-fc71-420c-9091-946c4d9d1040@panell.app.runonflux.io:443?path=%2Fxvpnws%2F&security=tls&alpn=h2&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20Forchheim%20%7C%20%E2%8F%B13425ms%20%7C%20%E2%9A%A1180KB%2Fs%20%7C%20%40NamazVPN
@@ -243,8 +248,3 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.169.214.185:22223?encryption=non
 http://115.231.181.40:8128#%F0%9F%87%A8%F0%9F%87%B3%20China%20Hangzhou%20%7C%20%E2%8F%B13402ms%20%7C%20%E2%9A%A1136KB%2Fs%20%7C%20%40NamazVPN
 socks://Og%3D%3D@81.29.249.82:5071#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20Karaj%20%7C%20%E2%8F%B1685ms%20%7C%20%E2%9A%A1512KB%2Fs%20%7C%20%40NamazVPN
 http://114.249.220.9:8888#%F0%9F%87%A8%F0%9F%87%B3%20China%20Beijing%20%7C%20%E2%8F%B13629ms%20%7C%20%E2%9A%A1229KB%2Fs%20%7C%20%40NamazVPN
-http://114.244.223.68:8888#%F0%9F%87%A8%F0%9F%87%B3%20China%20Beijing%20%7C%20%E2%8F%B11277ms%20%7C%20%E2%9A%A1227KB%2Fs%20%7C%20%40NamazVPN
-http://114.236.137.41:21000#%F0%9F%87%A8%F0%9F%87%B3%20China%20Yancheng%20%7C%20%E2%8F%B11805ms%20%7C%20%E2%9A%A1111KB%2Fs%20%7C%20%40NamazVPN
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoY1B0VkRueFpIdW11eXFHdGlPR3RB@2.56.126.121:2#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20Frankfurt%20am%20Main%20%7C%20%E2%8F%B1369ms%20%7C%20%E2%9A%A1114KB%2Fs%20%7C%20%40NamazVPN
-http://113.45.195.147:3128#%F0%9F%87%A8%F0%9F%87%B3%20China%20Guangzhou%20%7C%20%E2%8F%B17836ms%20%7C%20%E2%9A%A1266KB%2Fs%20%7C%20%40NamazVPN
-http://113.192.31.79:8099#%F0%9F%87%AE%F0%9F%87%A9%20Indonesia%20South%20Jakarta%20%7C%20%E2%8F%B13094ms%20%7C%20%E2%9A%A1120KB%2Fs%20%7C%20%40NamazVPN
