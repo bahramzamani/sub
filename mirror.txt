@@ -1,3 +1,13 @@
+vless://3ab633de-99ed-4566-9749-c75c7f352106@asqar.uicloud.tr:8187?encryption=none&security=reality&type=tcp&headerType=none&path=%2F&host=dash.sub-info.cam&sni=play.google.com&fp=firefox&pbk=_emy8hpY6h8QEym-NXUrS43fqS9DamjhRZG0ajZDYQ8&sid=24c95f71287519f3#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20Helsinki%20%7C%20%E2%8F%B1788ms%20%7C%20%E2%9A%A1692KB%2Fs%20%7C%20%40NamazVPN
+vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@support.zoom.us:80?encryption=none&type=ws&host=u.srilankangrill.online&headerType=none&path=%2F#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%20Singapore%20%7C%20%E2%8F%B11367ms%20%7C%20%E2%9A%A1577KB%2Fs%20%7C%20%40NamazVPN
+http://161.97.131.23:8899#%F0%9F%87%AB%F0%9F%87%B7%20France%20Lauterbourg%20%7C%20%E2%8F%B110045ms%20%7C%20%E2%9A%A1131KB%2Fs%20%7C%20%40NamazVPN
+http://160.238.65.5:3128#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20%E2%8F%B14543ms%20%7C%20%E2%9A%A1335KB%2Fs%20%7C%20%40NamazVPN
+http://160.238.65.9:3128#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20%E2%8F%B1454ms%20%7C%20%E2%9A%A1165KB%2Fs%20%7C%20%40NamazVPN
+http://160.238.65.3:3128#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20%E2%8F%B13561ms%20%7C%20%E2%9A%A1607KB%2Fs%20%7C%20%40NamazVPN
+http://160.22.206.83:8082#%F0%9F%87%AE%F0%9F%87%A9%20Indonesia%20Jakarta%20%7C%20%E2%8F%B13166ms%20%7C%20%E2%9A%A1263KB%2Fs%20%7C%20%40NamazVPN
+http://160.20.39.93:3125#%F0%9F%87%AE%F0%9F%87%A9%20Indonesia%20Indramayu%20%7C%20%E2%8F%B12015ms%20%7C%20%E2%9A%A1157KB%2Fs%20%7C%20%40NamazVPN
+http://160.191.56.1:8082#%F0%9F%87%AE%F0%9F%87%A9%20Indonesia%20Serpong%20%7C%20%E2%8F%B12119ms%20%7C%20%E2%9A%A1130KB%2Fs%20%7C%20%40NamazVPN
+http://160.19.110.130:8082#%F0%9F%87%AE%F0%9F%87%A9%20Indonesia%20West%20Jakarta%20%7C%20%E2%8F%B11061ms%20%7C%20%E2%9A%A1336KB%2Fs%20%7C%20%40NamazVPN
 http://157.66.2.5:1111#%F0%9F%87%AE%F0%9F%87%A9%20Indonesia%20Bekasi%20%7C%20%E2%8F%B1983ms%20%7C%20%E2%9A%A1103KB%2Fs%20%7C%20%40NamazVPN
 hysteria2://QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s@162.249.125.133:443?sni=hy2-new.aspidnet.xyz&obfs=salamander&obfs-password=c1b4086fea89914496c7e10967a419216566#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20%E2%8F%B11577ms%20%7C%20%E2%9A%A1164KB%2Fs%20%7C%20%40NamazVPN
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.130.157:22223?encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20France%20Paris%20%7C%20%E2%8F%B1279ms%20%7C%20%E2%9A%A11.3MB%2Fs%20%7C%20%40NamazVPN
@@ -238,13 +248,3 @@ socks://193.233.139.106:1080#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20Londo
 socks://65.21.252.66:10811#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20Tokyo%20%7C%20%E2%8F%B12472ms%20%7C%20%E2%9A%A1166KB%2Fs%20%7C%20%40NamazVPN
 vless://fe564b09-1fd8-4053-934b-3106350e4272@45.152.64.9:11763?type=raw&security=reality&flow=xtls-rprx-vision&sni=www.amazon.com&fp=chrome&pbk=V3mjjvp5OFn8TNw7WK0RR2p7l9sVX2v7Zr56ag3QkiQ#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20Mong%20Kok%20%7C%20%E2%8F%B11121ms%20%7C%20%E2%9A%A1322KB%2Fs%20%7C%20%40NamazVPN
 http://91.233.223.147:3128#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20Sochi%20%7C%20%E2%8F%B12339ms%20%7C%20%E2%9A%A1252KB%2Fs%20%7C%20%40NamazVPN
-http://14.251.13.20:8080#%F0%9F%87%BB%F0%9F%87%B3%20Vietnam%20Ninh%20Binh%20%7C%20%E2%8F%B11466ms%20%7C%20%E2%9A%A1137KB%2Fs%20%7C%20%40NamazVPN
-http://117.236.124.166:3128#%F0%9F%87%AE%F0%9F%87%B3%20India%20Gandhinagar%20%7C%20%E2%8F%B11024ms%20%7C%20%E2%9A%A1179KB%2Fs%20%7C%20%40NamazVPN
-socks://Og%3D%3D@83.147.216.208:1080#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20London%20%7C%20%E2%8F%B11605ms%20%7C%20%E2%9A%A1821KB%2Fs%20%7C%20%40NamazVPN
-socks://Og@144.91.121.61:1088#%F0%9F%87%AB%F0%9F%87%B7%20France%20Lauterbourg%20%7C%20%E2%8F%B12022ms%20%7C%20%E2%9A%A1197KB%2Fs%20%7C%20%40NamazVPN
-socks://Og%3D%3D@144.91.121.61:1088#%F0%9F%87%AB%F0%9F%87%B7%20France%20Lauterbourg%20%7C%20%E2%8F%B11083ms%20%7C%20%E2%9A%A1291KB%2Fs%20%7C%20%40NamazVPN
-hysteria2://cd74c0a406664a5bc0bac098220a2468@144.31.49.138:443?security=tls&obfs=salamander&obfs-password=44f1c1e2f8b99e792ceed574627a1eb0&insecure=0&sni=ru1.sferavpn.pro#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%E2%8F%B1999ms%20%7C%20%E2%9A%A193KB%2Fs%20%7C%20%40NamazVPN
-vmess://eyJhZGQiOiJuaW5qYS5tb25hazIuaXIiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiNzAzNGYyNzQtYzUzYS00ZDczLTlmMGMtYjI4YmFjMGQ5ZTdhIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMTAiLCJwcyI6IvCfh7nwn4e3IFTDvHJraXllIElzdGFuYnVsIHwg4o+xMjY1bXMgfCDimqEyLjVNQi9zIHwgQE5hbWF6VlBOIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
-hysteria2://sxc15led4b0vp5fy@musicclips.videolinks.ru:8443?sni=&obfs=salamander&obfs-password=8zzng75tz4tf82pj#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20Helsinki%20%7C%20%E2%8F%B1666ms%20%7C%20%E2%9A%A11.4MB%2Fs%20%7C%20%40NamazVPN
-hysteria2://sxc15led4b0vp5fy@musicclips.videolinks.ru:8443?sni=musicclips.videolinks.ru&obfs=salamander&obfs-password=8zzng75tz4tf82pj#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20Helsinki%20%7C%20%E2%8F%B1656ms%20%7C%20%E2%9A%A11.1MB%2Fs%20%7C%20%40NamazVPN
-vmess://eyJhZGQiOiJuaW5qYS5tb25hazIuaXIiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiNzAzNGYyNzQtYzUzYS00ZDczLTlmMGMtYjI4YmFjMGQ5ZTdhIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMTAiLCJwcyI6IvCfh7nwn4e3IFTDvHJraXllIElzdGFuYnVsIHwg4o+xMzExbXMgfCDimqEyLjRNQi9zIHwgQE5hbWF6VlBOIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
