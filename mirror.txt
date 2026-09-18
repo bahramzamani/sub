@@ -1,3 +1,10 @@
+vless://XpnTeam-6@199.232.78.170:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#%F0%9F%87%AB%F0%9F%87%B7%20France%20Paris%20%7C%20%E2%8F%B1650ms%20%7C%20%E2%9A%A1982KB%2Fs%20%7C%20%40NamazVPN
+vless://ba6b7300-be34-43ef-a883-eee182dfb2d6@87.58.147.66:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=Miro.com&fp=chrome&pbk=1U9eTADaumTYxiO9NifVHUv5mbMowU2NSjgc2rBdvHo&sid=7a0300af51a1c4cf&allowInsecure=1#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20Helsinki%20%7C%20%E2%8F%B1466ms%20%7C%20%E2%9A%A1518KB%2Fs%20%7C%20%40NamazVPN
+vless://80ed15d0-e6ec-4a16-bdb2-4785946c67c7@api.setevoybereg.cc:443?security=reality&encryption=none&pbk=r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=&sid=a8#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%E2%8F%B15823ms%20%7C%20%E2%9A%A11.2MB%2Fs%20%7C%20%40NamazVPN
+vless://4ac5e981-145c-4068-bc92-df7a55a929fe@servconfmmmddd.ir:443?path=%2Fvl-ws&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=&fp=chrome&type=ws&allowInsecure=0&sni=#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20San%20Jose%20%7C%20%E2%8F%B11271ms%20%7C%20%E2%9A%A1489KB%2Fs%20%7C%20%40NamazVPN
+http://109.123.254.197:3128#%F0%9F%87%AB%F0%9F%87%B7%20France%20Lauterbourg%20%7C%20%E2%8F%B1389ms%20%7C%20%E2%9A%A1764KB%2Fs%20%7C%20%40NamazVPN
+vless://8be863bf-2bbb-4579-8ff1-5882651e2e64@151.101.65.57:80?path=%2F&security=none&encryption=none&host=simorghtrr.global.ssl.fastly.net&type=ws#%F0%9F%87%B9%F0%9F%87%B7%20T%C3%BCrkiye%20%7C%20%E2%8F%B1547ms%20%7C%20%E2%9A%A1375KB%2Fs%20%7C%20%40NamazVPN
+vless://e5a61a6e-c64d-44b7-b29e-e79ac401a3c6@66.33.22.226:51544?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20Amsterdam%20%7C%20%E2%8F%B1406ms%20%7C%20%E2%9A%A11.0MB%2Fs%20%7C%20%40NamazVPN
 vless://68bb7651-668e-4b55-a1f7-920ddd1243a0@151.101.65.57:80?path=%2F&security=none&encryption=none&host=simorghtrr.global.ssl.fastly.net&type=ws#%F0%9F%87%B9%F0%9F%87%B7%20T%C3%BCrkiye%20%7C%20%E2%8F%B1531ms%20%7C%20%E2%9A%A11013KB%2Fs%20%7C%20%40NamazVPN
 http://108.181.123.87:3128#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Los%20Angeles%20%28Downtown%20Los%20Angeles%29%20%7C%20%E2%8F%B1816ms%20%7C%20%E2%9A%A1509KB%2Fs%20%7C%20%40NamazVPN
 vless://74117310-1dc8-4035-830e-6c29f10ac170@fi-3.bnc-gt.co.uk:443?path=%2Fws%2F&security=tls&encryption=none&insecure=0&fp=qq&type=ws&allowInsecure=0&sni=a.fi-3.bnc-gt.co.uk#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20Moscow%20%7C%20%E2%8F%B1699ms%20%7C%20%E2%9A%A1861KB%2Fs%20%7C%20%40NamazVPN
@@ -241,10 +248,3 @@ socks://103.75.118.84:1080#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20Tokyo%20%7C%20%E2%
 socks://45.74.31.22:16254#%F0%9F%87%AE%F0%9F%87%A9%20Indonesia%20Jakarta%20%7C%20%E2%8F%B12247ms%20%7C%20%E2%9A%A1104KB%2Fs%20%7C%20%40NamazVPN
 socks://45.74.31.30:4346#%F0%9F%87%A6%F0%9F%87%BA%20Australia%20Sydney%20%7C%20%E2%8F%B11881ms%20%7C%20%E2%9A%A1320KB%2Fs%20%7C%20%40NamazVPN
 http://176.111.37.5:39811#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20Tsim%20Sha%20Tsui%20%7C%20%E2%8F%B1459ms%20%7C%20%E2%9A%A1900KB%2Fs%20%7C%20%40NamazVPN
-socks://45.32.160.61:1088#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Miami%20%7C%20%E2%8F%B1920ms%20%7C%20%E2%9A%A1492KB%2Fs%20%7C%20%40NamazVPN
-socks://45.74.31.30:4843#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20Amsterdam%20%7C%20%E2%8F%B1486ms%20%7C%20%E2%9A%A1408KB%2Fs%20%7C%20%40NamazVPN
-socks://45.74.31.30:4486#%F0%9F%87%AB%F0%9F%87%B7%20France%20Gravelines%20%7C%20%E2%8F%B13344ms%20%7C%20%E2%9A%A1492KB%2Fs%20%7C%20%40NamazVPN
-http://95.3.69.222:8080#%F0%9F%87%B9%F0%9F%87%B7%20T%C3%BCrkiye%20Magnesia%20ad%20Sipylum%20%7C%20%E2%8F%B1599ms%20%7C%20%E2%9A%A1559KB%2Fs%20%7C%20%40NamazVPN
-socks://45.74.31.41:14296#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Ashburn%20%7C%20%E2%8F%B12669ms%20%7C%20%E2%9A%A168KB%2Fs%20%7C%20%40NamazVPN
-socks://193.233.223.47:1080#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20Moscow%20%7C%20%E2%8F%B1731ms%20%7C%20%E2%9A%A1711KB%2Fs%20%7C%20%40NamazVPN
-socks://135.181.79.187:40001#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20Helsinki%20%7C%20%E2%8F%B1624ms%20%7C%20%E2%9A%A1805KB%2Fs%20%7C%20%40NamazVPN
