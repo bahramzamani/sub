@@ -1,3 +1,10 @@
+http://111.201.101.206:8888#%F0%9F%87%A8%F0%9F%87%B3%20China%20Beijing%20%7C%20%E2%8F%B11598ms%20%7C%20%E2%9A%A198KB%2Fs%20%7C%20%40NamazVPN
+http://111.196.31.158:8888#%F0%9F%87%A8%F0%9F%87%B3%20China%20Beijing%20%7C%20%E2%8F%B11594ms%20%7C%20%E2%9A%A1288KB%2Fs%20%7C%20%40NamazVPN
+vless://8df2e661-6f46-471b-9133-7fc13a0daa35@dqzeqpwif.dmxw.ir:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=web.eitaa.com&fp=chrome&pbk=jDoORbrtDrvAlFSo19CJbc99C4ev8SAo1MwczSUt9no&sid=5f7c3b816486b3fc&spx=%2F0axXZ9nehRO7uK9&type=tcp&headerType=none#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20Helsinki%20%7C%20%E2%8F%B1477ms%20%7C%20%E2%9A%A1722KB%2Fs%20%7C%20%40NamazVPN
+http://111.192.19.39:8888#%F0%9F%87%A8%F0%9F%87%B3%20China%20Beijing%20%7C%20%E2%8F%B16645ms%20%7C%20%E2%9A%A1197KB%2Fs%20%7C%20%40NamazVPN
+http://111.196.26.27:8888#%F0%9F%87%A8%F0%9F%87%B3%20China%20Beijing%20%7C%20%E2%8F%B11905ms%20%7C%20%E2%9A%A1307KB%2Fs%20%7C%20%40NamazVPN
+http://111.192.47.144:8888#%F0%9F%87%A8%F0%9F%87%B3%20China%20Beijing%20%7C%20%E2%8F%B11725ms%20%7C%20%E2%9A%A1117KB%2Fs%20%7C%20%40NamazVPN
+http://111.192.31.112:8888#%F0%9F%87%A8%F0%9F%87%B3%20China%20Beijing%20%7C%20%E2%8F%B11426ms%20%7C%20%E2%9A%A1245KB%2Fs%20%7C%20%40NamazVPN
 vless://XpnTeam-6@199.232.78.170:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#%F0%9F%87%AB%F0%9F%87%B7%20France%20Paris%20%7C%20%E2%8F%B1650ms%20%7C%20%E2%9A%A1982KB%2Fs%20%7C%20%40NamazVPN
 vless://ba6b7300-be34-43ef-a883-eee182dfb2d6@87.58.147.66:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=Miro.com&fp=chrome&pbk=1U9eTADaumTYxiO9NifVHUv5mbMowU2NSjgc2rBdvHo&sid=7a0300af51a1c4cf&allowInsecure=1#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20Helsinki%20%7C%20%E2%8F%B1466ms%20%7C%20%E2%9A%A1518KB%2Fs%20%7C%20%40NamazVPN
 vless://80ed15d0-e6ec-4a16-bdb2-4785946c67c7@api.setevoybereg.cc:443?security=reality&encryption=none&pbk=r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=&sid=a8#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%E2%8F%B15823ms%20%7C%20%E2%9A%A11.2MB%2Fs%20%7C%20%40NamazVPN
@@ -241,10 +248,3 @@ http://95.211.174.135:3128#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20Haarle
 socks://45.74.31.42:37054#%F0%9F%87%AB%F0%9F%87%B7%20France%20Gravelines%20%7C%20%E2%8F%B110113ms%20%7C%20%E2%9A%A1196KB%2Fs%20%7C%20%40NamazVPN
 socks://161.35.90.93:1083#%F0%9F%87%AA%F0%9F%87%B8%20Spain%20Madrid%20%7C%20%E2%8F%B16386ms%20%7C%20%E2%9A%A1409KB%2Fs%20%7C%20%40NamazVPN
 socks://45.74.31.40:29316#%F0%9F%87%A6%F0%9F%87%B7%20Argentina%20La%20Plata%20%7C%20%E2%8F%B15903ms%20%7C%20%E2%9A%A1141KB%2Fs%20%7C%20%40NamazVPN
-http://45.65.138.48:999#%F0%9F%87%A8%F0%9F%87%B4%20Colombia%20C%C3%BAcuta%20%7C%20%E2%8F%B15074ms%20%7C%20%E2%9A%A1111KB%2Fs%20%7C%20%40NamazVPN
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.176.34.52:22224?encryption=none&security=none&type=tcp#%F0%9F%87%AE%F0%9F%87%AA%20Ireland%20%7C%20%E2%8F%B1326ms%20%7C%20%E2%9A%A11.0MB%2Fs%20%7C%20%40NamazVPN
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.176.34.52:22222?encryption=none&security=none&type=tcp#%F0%9F%87%AE%F0%9F%87%AA%20Ireland%20%7C%20%E2%8F%B1289ms%20%7C%20%E2%9A%A11.1MB%2Fs%20%7C%20%40NamazVPN
-socks://103.75.118.84:1080#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20Tokyo%20%7C%20%E2%8F%B13891ms%20%7C%20%E2%9A%A1158KB%2Fs%20%7C%20%40NamazVPN
-socks://45.74.31.22:16254#%F0%9F%87%AE%F0%9F%87%A9%20Indonesia%20Jakarta%20%7C%20%E2%8F%B12247ms%20%7C%20%E2%9A%A1104KB%2Fs%20%7C%20%40NamazVPN
-socks://45.74.31.30:4346#%F0%9F%87%A6%F0%9F%87%BA%20Australia%20Sydney%20%7C%20%E2%8F%B11881ms%20%7C%20%E2%9A%A1320KB%2Fs%20%7C%20%40NamazVPN
-http://176.111.37.5:39811#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20Tsim%20Sha%20Tsui%20%7C%20%E2%8F%B1459ms%20%7C%20%E2%9A%A1900KB%2Fs%20%7C%20%40NamazVPN
