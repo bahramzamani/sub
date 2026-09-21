@@ -1,3 +1,5 @@
+vless://b5172efe-cf5e-4484-971d-2860bdb95ab1@grt1.starzone.ir:10235?security=reality&encryption=none&pbk=NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs&headerType=none&fp=ios&type=tcp&sni=play-apps-features.googleusercontent.com&sid=6115f6a9eb8467c6#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20Nuremberg%20%7C%20%E2%8F%B1768ms%20%7C%20%E2%9A%A1955KB%2Fs%20%7C%20%40NamazVPN
+vless://b5172efe-cf5e-4484-971d-2860bdb95ab1@frz1.starzone.ir:8735?security=reality&encryption=none&pbk=NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs&headerType=none&fp=edge&type=tcp&sni=delivery.mp.microsoft.com&sid=9e3f5e25c17d2615#%F0%9F%87%AB%F0%9F%87%B7%20France%20Aubervilliers%20%7C%20%E2%8F%B1638ms%20%7C%20%E2%9A%A1872KB%2Fs%20%7C%20%40NamazVPN
 socks://178.252.165.226:1080#%F0%9F%87%AE%F0%9F%87%B7%20Iran%20Tehran%20%7C%20%E2%8F%B1608ms%20%7C%20%E2%9A%A1628KB%2Fs%20%7C%20%40NamazVPN
 socks://176.9.107.170:1081#%F0%9F%87%B2%F0%9F%87%B0%20North%20Macedonia%20Skopje%20%7C%20%E2%8F%B1446ms%20%7C%20%E2%9A%A1770KB%2Fs%20%7C%20%40NamazVPN
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.188.103.174:22224?encryption=none&headerType=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20France%20Paris%20%7C%20%E2%8F%B1273ms%20%7C%20%E2%9A%A11.1MB%2Fs%20%7C%20%40NamazVPN
@@ -246,5 +248,3 @@ vmess://eyJhZGQiOiIxODguMTE0Ljk2LjE5IiwiYWlkIjoiMCIsImhvc3QiOiJodHRwcy5odHRwLnd3
 socks://104.161.23.122:5020#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Fish%20Lake%20%7C%20%E2%8F%B12834ms%20%7C%20%E2%9A%A1231KB%2Fs%20%7C%20%40NamazVPN
 socks://103.88.234.239:40006#%F0%9F%87%B2%F0%9F%87%BD%20Mexico%20Le%C3%B3n%20%7C%20%E2%8F%B11187ms%20%7C%20%E2%9A%A1421KB%2Fs%20%7C%20%40NamazVPN
 vless://99d52e86-fb2d-4e08-9c69-d7a27179a095@66.33.22.226:37200?path=%2F&security=&encryption=none&type=ws#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Santa%20Clara%20%7C%20%E2%8F%B1952ms%20%7C%20%E2%9A%A1520KB%2Fs%20%7C%20%40NamazVPN
-ss://YWVzLTI1Ni1nY206TURNellqVXlPVFprTXpaalpUYzBZalF4WkdSaE9ERXlNemczWmpobA@188.121.123.28:9112?prefix=%16%03%01%00%C2%A8%01%01#%F0%9F%87%B3%F0%9F%87%B4%20Norway%20Nordland%20%7C%20%E2%8F%B1390ms%20%7C%20%E2%9A%A11.3MB%2Fs%20%7C%20%40NamazVPN
-socks://103.75.118.84:1080#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20Tokyo%20%7C%20%E2%8F%B12699ms%20%7C%20%E2%9A%A1156KB%2Fs%20%7C%20%40NamazVPN
