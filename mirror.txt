@@ -1,3 +1,10 @@
+http://190.12.150.244:999#%F0%9F%87%AA%F0%9F%87%A8%20Ecuador%20Quito%20%7C%20%E2%8F%B11344ms%20%7C%20%E2%9A%A1222KB%2Fs%20%7C%20%40NamazVPN
+http://190.0.246.210:4040#%F0%9F%87%A8%F0%9F%87%B4%20Colombia%20Villanueva%20%7C%20%E2%8F%B1961ms%20%7C%20%E2%9A%A1399KB%2Fs%20%7C%20%40NamazVPN
+http://190.0.246.213:4040#%F0%9F%87%A8%F0%9F%87%B4%20Colombia%20Villanueva%20%7C%20%E2%8F%B1947ms%20%7C%20%E2%9A%A1394KB%2Fs%20%7C%20%40NamazVPN
+http://190.0.246.211:4040#%F0%9F%87%A8%F0%9F%87%B4%20Colombia%20Villanueva%20%7C%20%E2%8F%B1941ms%20%7C%20%E2%9A%A1395KB%2Fs%20%7C%20%40NamazVPN
+http://188.225.37.219:3128#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20St%20Petersburg%20%7C%20%E2%8F%B1436ms%20%7C%20%E2%9A%A11.1MB%2Fs%20%7C%20%40NamazVPN
+http://188.132.150.44:8080#%F0%9F%87%B8%F0%9F%87%BE%20Syria%20%7C%20%E2%8F%B12773ms%20%7C%20%E2%9A%A1159KB%2Fs%20%7C%20%40NamazVPN
+http://188.132.150.149:8080#%F0%9F%87%B8%F0%9F%87%BE%20Syria%20%7C%20%E2%8F%B12728ms%20%7C%20%E2%9A%A1124KB%2Fs%20%7C%20%40NamazVPN
 http://187.62.191.3:61456#%F0%9F%87%A7%F0%9F%87%B7%20Brazil%20Bariri%20%7C%20%E2%8F%B18718ms%20%7C%20%E2%9A%A176KB%2Fs%20%7C%20%40NamazVPN
 http://187.102.219.64:999#%F0%9F%87%A6%F0%9F%87%B7%20Argentina%20Eldorado%20%7C%20%E2%8F%B11400ms%20%7C%20%E2%9A%A1161KB%2Fs%20%7C%20%40NamazVPN
 http://187.102.219.34:999#%F0%9F%87%A6%F0%9F%87%B7%20Argentina%20Eldorado%20%7C%20%E2%8F%B11377ms%20%7C%20%E2%9A%A1145KB%2Fs%20%7C%20%40NamazVPN
@@ -241,10 +248,3 @@ vmess://eyJhZGQiOiIyMDYuMS45Ny4yMTIiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiTml0cm9f
 vless://241d38aa-904e-4022-961c-f4e0e464d44f@Englis.duvnixa.ir:4000?security=reality&encryption=none&pbk=gNJZix6GHGuB246_yD6n0EQQY-6Vb1zXg3ipjnubawE&headerType=none&fp=edge&type=tcp&sni=storage-p2.googleapis.com&sid=7185b79514715300#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20City%20of%20London%20%7C%20%E2%8F%B1997ms%20%7C%20%E2%9A%A1302KB%2Fs%20%7C%20%40NamazVPN
 vless://0da6aa8c-0709-48b6-858f-824ae13cfb16@91.107.154.88:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20Nuremberg%20%7C%20%E2%8F%B1324ms%20%7C%20%E2%9A%A1973KB%2Fs%20%7C%20%40NamazVPN
 http://154.59.56.76:999#%F0%9F%87%BB%F0%9F%87%AA%20Venezuela%20Trujillo%20%7C%20%E2%8F%B16166ms%20%7C%20%E2%9A%A1183KB%2Fs%20%7C%20%40NamazVPN
-http://154.59.56.73:999#%F0%9F%87%BB%F0%9F%87%AA%20Venezuela%20Trujillo%20%7C%20%E2%8F%B14986ms%20%7C%20%E2%9A%A1161KB%2Fs%20%7C%20%40NamazVPN
-vless://ff6d2dda-7b90-404e-9951-34b3124bfdfa@194.150.166.108:9443?security=reality&encryption=none&pbk=M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc&headerType=none&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=storage.yandexcloud.net&sid=ad20d2ba#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20London%20%7C%20%E2%8F%B15299ms%20%7C%20%E2%9A%A187KB%2Fs%20%7C%20%40NamazVPN
-http://154.3.76.14:999#%F0%9F%87%BB%F0%9F%87%AA%20Venezuela%20Qu%C3%ADbor%20%7C%20%E2%8F%B16763ms%20%7C%20%E2%9A%A1194KB%2Fs%20%7C%20%40NamazVPN
-vless://ff6d2dda-7b90-404e-9951-34b3124bfdfa@193.56.135.137:9543?security=reality&encryption=none&pbk=M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc&headerType=none&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=storage.yandexcloud.net&sid=123abcde#%F0%9F%87%AE%F0%9F%87%B6%20Iraq%20Erbil%20%7C%20%E2%8F%B1519ms%20%7C%20%E2%9A%A1518KB%2Fs%20%7C%20%40NamazVPN
-http://152.53.183.107:8081#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20Nuremberg%20%7C%20%E2%8F%B14377ms%20%7C%20%E2%9A%A180KB%2Fs%20%7C%20%40NamazVPN
-vless://02996123-6769-4bfd-bc5d-a2f45f4aa9de@amr8.starzone.ir:8735?security=reality&encryption=none&pbk=NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs&headerType=&fp=edge&type=tcp&sni=delivery.mp.microsoft.com&sid=9e3f5e25c17d2615#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20Kent%20%7C%20%E2%8F%B11443ms%20%7C%20%E2%9A%A176KB%2Fs%20%7C%20%40NamazVPN
-vless://d544c858-b1ba-45b2-8868-8197daf2a6ee@179.255.191.40:8443?path=%2Fassets&security=tls&encryption=none&insecure=0&fp=safari&type=ws&allowInsecure=0&sni=switz.luxes.network#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%20Dickbuch%20%7C%20%E2%8F%B1745ms%20%7C%20%E2%9A%A1940KB%2Fs%20%7C%20%40NamazVPN
